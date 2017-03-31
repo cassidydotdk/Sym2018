@@ -1,0 +1,10 @@
+module.exports = function () {
+  var config = {
+      websiteRoot: "D:\\inetpub\\wwwroot\\sugcon\\Website",
+      sitecoreLibraries: "D:\\inetpub\\wwwroot\\sugcon\\Website\\bin",
+    solutionName: "Habitat",
+    buildConfiguration: "Debug",
+    runCleanBuilds: false
+  }
+  return config;
+}
