@@ -10,7 +10,7 @@ Thumbs.db
 [Oo]bj/
 src/**/[Bb]in/
 
-/**/z.Unicorn.DataStore.config
+z.UnicornDataStore.config
 
 ######## GENERAL .NET IGNORES ########
 
