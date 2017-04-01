@@ -10,6 +10,8 @@ Thumbs.db
 [Oo]bj/
 src/**/[Bb]in/
 
+/**/z.Unicorn.DataStore.config
+
 ######## GENERAL .NET IGNORES ########
 
 # Ignore user-scoped solution and project settings
