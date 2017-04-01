@@ -1,8 +1,8 @@
 module.exports = function () {
   var config = {
-      websiteRoot: "D:\\inetpub\\wwwroot\\sugcon\\Website",
-      sitecoreLibraries: "D:\\inetpub\\wwwroot\\sugcon\\Website\\bin",
-    solutionName: "Habitat",
+	  websiteRoot: "D:\\inetpub\\wwwroot\\sc82u2\\Website",
+	  sitecoreLibraries: "D:\\inetpub\\wwwroot\\sc82u2\\Website\\bin",
+    solutionName: "Solution",
     buildConfiguration: "Debug",
     runCleanBuilds: false
   }
