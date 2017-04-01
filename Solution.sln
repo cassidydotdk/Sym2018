@@ -7,7 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z - Solution Files", "Z - S
 	ProjectSection(SolutionItems) = preProject
 		gulp-config.js = gulp-config.js
 		gulpfile.js = gulpfile.js
-		scripts\habitat.js = scripts\habitat.js
 		package.json = package.json
 		scripts\unicorn.js = scripts\unicorn.js
 		src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config = src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config

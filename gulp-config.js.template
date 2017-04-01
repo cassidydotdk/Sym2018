@@ -1,10 +1,12 @@
 module.exports = function () {
-  var config = {
-	  websiteRoot: "D:\\inetpub\\wwwroot\\sc82u2\\Website",
-	  sitecoreLibraries: "D:\\inetpub\\wwwroot\\sc82u2\\Website\\bin",
-    solutionName: "Solution",
-    buildConfiguration: "Debug",
-    runCleanBuilds: false
-  }
-  return config;
+	var config = {
+		websiteRoot: "D:\\inetpub\\wwwroot\\sc82u2\\Website",
+		sitecoreLibraries: "D:\\inetpub\\wwwroot\\sc82u2\\Website\\bin",
+		hostName: "http://sc82u2.local",
+		solutionName: "Solution",
+		buildConfiguration: "Debug",
+		runCleanBuilds: false
+	}
+
+	return config;
 }
