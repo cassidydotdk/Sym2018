@@ -12,7 +12,6 @@ var config = require("./gulp-config.js")();
 var nugetRestore = require('gulp-nuget-restore');
 var fs = require('fs');
 var unicorn = require("./scripts/unicorn.js");
-var habitat = require("./scripts/habitat.js");
 
 module.exports.config = config;
 
@@ -53,8 +52,8 @@ gulp.task("B02-Publish-All-Projects", function (callback) {
 
 gulp.task("B03-Sync-Unicorn", function (callback) {
   var options = {};
-  options.siteHostName = habitat.getSiteUrl();
-  options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn/Unicorn.UI.config";
+  options.siteHostName = config.hostName;
+  options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn/z.UnicornDataStore.config";
 
   unicorn(function() { return callback() }, options);
 });

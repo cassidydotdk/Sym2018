@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z - Solution Files", "Z - S
 		scripts\habitat.js = scripts\habitat.js
 		package.json = package.json
 		scripts\unicorn.js = scripts\unicorn.js
+		src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config = src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Projects", "3 - Projects", "{9E53DC4E-7FFF-449E-AE9A-A2467F9E3073}"
