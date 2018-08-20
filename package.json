@@ -1,7 +1,7 @@
 {
-  "name": "habitat",
+  "name": "base",
   "version": "1.0.0",
-  "description": "Sitecore Habitat Node Dependencies",
+  "description": "CassidyDotDk base repository, loosely based on an early Sitecore Habitat config",
   "main": "gulpfile.js",
   "dependencies": {
     "async": "^1.5.2",
@@ -31,12 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sitecore/Habitat.git"
+    "url": "git+https://github.com/cassidydotdk/Base.Repository.git"
   },
-  "author": "Sitecore Corporation A/S",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sitecore/Habitat/issues"
-  },
-  "homepage": "https://github.com/Sitecore/Habitat#readme"
+  "author": "cassidydotdk",
+  "license": "MIT",
+  "homepage": "https://github.com/cassidydotdk/Base.Repository"
 }
