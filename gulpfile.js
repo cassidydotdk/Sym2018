@@ -15,7 +15,6 @@ gulp.task("default", function (callback) {
   return runSequence(
     "B01-Nuget-Restore",
     "B02-Publish-All-Projects",
-    "B03-Sync-Unicorn",
 	callback);
 });
 
@@ -45,7 +44,7 @@ gulp.task("B02-Publish-All-Projects", function (callback) {
     "Publish-Project-Projects", callback);
 });
 
-gulp.task("B03-Sync-Unicorn", function (callback) {
+gulp.task("DMD-Sync-Unicorn", function (callback) {
   var options = {};
   options.siteHostName = config.hostName;
   options.authenticationConfigFile = config.websiteRoot + "/App_config/Include/Unicorn/z.UnicornDataStore.config";

@@ -13,7 +13,7 @@
 			
 			<defaults>
 				<targetDataStore type="Rainbow.Storage.SerializationFileSystemDataStore, Rainbow">
-					<patch:attribute name="physicalRootPath">D:\Git\Github\cassidydotdk\Base.Repository\src\$(layer).$(module).$(moduleConfigName)</patch:attribute>
+					<patch:attribute name="physicalRootPath">D:\Git\Github\cassidydotdk\Base.Repository\src\Unicorn\$(layer).$(module).$(moduleConfigName)</patch:attribute>
 				</targetDataStore>
 
 				<dataProviderConfiguration type="Unicorn.Data.DataProvider.DefaultUnicornDataProviderConfiguration, Unicorn">
