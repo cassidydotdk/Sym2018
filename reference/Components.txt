@@ -1,0 +1,38 @@
+Top Navigation
+Header	(sits at body level)
+Marketing Icons
+Portfolio Section
+Features
+Call to Action
+Footer	(sits at body level) 
+Headline With Subheading
+Breadcrumb
+Image Header
+Jumbotron
+Intro Content
+Team Members	(looks like it might just be displaying cards and could therefore be reused)
+Our Customers
+Contact Details (with map)
+Contact Form	(this form requires some additional javascript at the bottom of the html)
+Accordion (for FAQ etc)
+Rich Text (sits at container level)
+Full Width Portfolio Listing
+2 Column Portfolio Listing
+3 Column Portfolio Listing
+4 Column Portfolio Listing
+Portfolio Item
+Related Projects
+Price Options (may cut from scope)
+Sidebar (seems to be some form of Sitemap)
+
+
+[Blog Section]
+Cut from scope
+
+
+- <div class="container"> - page container?  may differ on page types. No. Doesn't appear to change
+
+<h1> and <h2> sits at this level, outside "rows"
+
+"card" and "portfolio item" inside "row"
+

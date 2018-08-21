@@ -20,6 +20,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Foundation", "1 - Found
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Website", "src\Project\Website\Project.Website.csproj", "{F014266C-CE49-4E16-A94C-E3E39EA7AE2F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Y - Reference", "Y - Reference", "{A333268A-7EF9-4FC3-810E-930A4446CEA8}"
+	ProjectSection(SolutionItems) = preProject
+		reference\404.html = reference\404.html
+		reference\about.html = reference\about.html
+		reference\blog-home-1.html = reference\blog-home-1.html
+		reference\blog-home-2.html = reference\blog-home-2.html
+		reference\blog-post.html = reference\blog-post.html
+		reference\contact.html = reference\contact.html
+		reference\faq.html = reference\faq.html
+		reference\full-width.html = reference\full-width.html
+		reference\index.html = reference\index.html
+		reference\portfolio-1-col.html = reference\portfolio-1-col.html
+		reference\portfolio-2-col.html = reference\portfolio-2-col.html
+		reference\portfolio-3-col.html = reference\portfolio-3-col.html
+		reference\portfolio-4-col.html = reference\portfolio-4-col.html
+		reference\portfolio-item.html = reference\portfolio-item.html
+		reference\pricing.html = reference\pricing.html
+		reference\services.html = reference\services.html
+		reference\sidebar.html = reference\sidebar.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
