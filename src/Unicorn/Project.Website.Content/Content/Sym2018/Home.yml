@@ -1,0 +1,14 @@
+﻿---
+ID: "11ee87a6-1ec4-4604-b2fa-7203db754692"
+Parent: "8d436184-c608-4b2a-81eb-4e5194ecb63b"
+Template: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
+Path: /sitecore/content/Sym2018/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180821T193313Z
