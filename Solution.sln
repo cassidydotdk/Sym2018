@@ -12,13 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z - Solution Files", "Z - S
 		src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config = src\Project.Website\App_Config\Include\Unicorn\z.UnicornDataStore.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Projects", "3 - Projects", "{9E53DC4E-7FFF-449E-AE9A-A2467F9E3073}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Project", "3 - Project", "{9E53DC4E-7FFF-449E-AE9A-A2467F9E3073}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Features", "2 - Features", "{B2B5D0C9-F007-4D6E-92CB-2B4C38E2086C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Website", "src\Project.Website\Project.Website.csproj", "{F014266C-CE49-4E16-A94C-E3E39EA7AE2F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Feature", "2 - Feature", "{B2B5D0C9-F007-4D6E-92CB-2B4C38E2086C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Foundation", "1 - Foundation", "{FC36DEB5-EDC2-4E7A-967E-E2673A988B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Website", "src\Project\Website\Project.Website.csproj", "{F014266C-CE49-4E16-A94C-E3E39EA7AE2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F014266C-CE49-4E16-A94C-E3E39EA7AE2F} = {9E53DC4E-7FFF-449E-AE9A-A2467F9E3073}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46C00308-9E7F-4B3A-AB9A-B627D72D52BB}
 	EndGlobalSection
 EndGlobal
