@@ -15,6 +15,10 @@
 				<targetDataStore type="Rainbow.Storage.SerializationFileSystemDataStore, Rainbow">
 					<patch:attribute name="physicalRootPath">D:\Git\Github\cassidydotdk\Base.Repository\src\$(layer).$(module).$(moduleConfigName)</patch:attribute>
 				</targetDataStore>
+
+				<dataProviderConfiguration type="Unicorn.Data.DataProvider.DefaultUnicornDataProviderConfiguration, Unicorn">
+					<patch:attribute name="enableTransparentSync">true</patch:attribute>
+				</dataProviderConfiguration>
 			</defaults>
 		</unicorn>
 	</sitecore>
