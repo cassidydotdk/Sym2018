@@ -5,10 +5,10 @@ using System.Web;
 
 namespace Project.Website.Components.HeadlineWithSubheading
 {
-	public class HeadlineWithSubheadingModel
+	public class HeadlineWithSubheadingModel : ComponentModel
 	{
 		public int HeadingLevel { get; set; }
-		public string Subheading { get; set; }
-		public string Heading { get; set; }
+		public HtmlString Subheading { get; set; }
+		public HtmlString Heading { get; set; }
 	}
 }

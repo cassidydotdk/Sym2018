@@ -7,7 +7,7 @@
 <!-- Page Heading -->
 @if (Model.HeadingLevel == 1)
 {
-    if (!string.IsNullOrWhiteSpace(Model.Subheading))
+    if (Model.IsEditor)
     {
         <h1 class="mt-4 mb-3">
             @Model.Heading
@@ -16,21 +16,31 @@
     }
     else
     {
-        <h1 class="my-4">@Model.Heading</h1>
+        if (Model.Subheading != null)
+        {
+            <h1 class="mt-4 mb-3">
+                @Model.Heading
+                <small>@Model.Subheading</small>
+            </h1>
+        }
+        else
+        {
+            <h1 class="my-4">@Model.Heading</h1>
+        }
     }
 }
 
-@if (Model.HeadingLevel == 2)
+@if (Model.HeadingLevel == 2 || Model.IsEditor)
 {
     <h2>@Model.Heading</h2>
 }
 
-@if (Model.HeadingLevel == 3)
+@if (Model.HeadingLevel == 3 || Model.IsEditor)
 {
     <h3 class="my-4">@Model.Heading</h3>
 }
 
-@if (Model.HeadingLevel == 0 || string.IsNullOrWhiteSpace(Model.Heading))
+@if (Model.HeadingLevel == 0 || Model.Heading == null)
 {
     <hr />
 }

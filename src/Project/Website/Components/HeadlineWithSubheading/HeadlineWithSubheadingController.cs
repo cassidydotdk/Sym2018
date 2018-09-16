@@ -11,7 +11,7 @@ namespace Project.Website.Components.HeadlineWithSubheading
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Heading with Subheading"), model);
+				return View(GetViewName("Heading with Subheading"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();
@@ -24,8 +24,8 @@ namespace Project.Website.Components.HeadlineWithSubheading
 			return new HeadlineWithSubheadingModel()
 			{
 				HeadingLevel = level,
-				Heading = actionItem["Heading"],
-				Subheading = actionItem["Subheading"],
+				Heading = RenderField(actionItem, "Heading"),
+				Subheading = RenderField(actionItem, "Subheading"),
 			};
 		}
 	}

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Presentation;
+using Sitecore.Web.UI.WebControls;
 
 namespace Project.Website.Components
 {
@@ -34,6 +35,26 @@ namespace Project.Website.Components
 		protected virtual string GetViewName(string componentName)
 		{
 			return $"~/Views/Components/{componentName}.cshtml";
+		}
+
+		protected virtual T SetComponentProperties<T>(T model) where T: ComponentModel
+		{
+			if (Sitecore.Context.PageMode.IsExperienceEditor)
+				model.IsEditor = true;
+
+			model.IsEditor = false;
+
+			return model;
+		}
+
+		public virtual HtmlString RenderField(Item item, string fieldName, string parameters = "")
+		{
+			if ((Sitecore.Context.PageMode.IsNormal || Sitecore.Context.PageMode.IsPreview) && string.IsNullOrWhiteSpace(item[fieldName]))
+			{
+				return null;
+			}
+
+			return new HtmlString(FieldRenderer.Render(item, fieldName, parameters));
 		}
 	}
 }

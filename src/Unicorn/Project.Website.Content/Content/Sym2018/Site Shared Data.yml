@@ -1,9 +1,13 @@
 ﻿---
-ID: "5a90fe08-da19-4fb0-aa96-ee4eecf89291"
+ID: "2d02ec48-c235-41ea-826f-ea77ba4af99e"
 Parent: "8d436184-c608-4b2a-81eb-4e5194ecb63b"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/content/Sym2018/Folder
+Path: /sitecore/content/Sym2018/Site Shared Data
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_green.png
 Languages:
 - Language: en
   Versions:
@@ -11,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180821T164049Z
+      Value: 20180916T191257Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

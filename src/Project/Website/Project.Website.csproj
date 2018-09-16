@@ -197,6 +197,7 @@
     <Compile Include="Components\CallToAction\CallToActionController.cs" />
     <Compile Include="Components\CallToAction\CallToActionModel.cs" />
     <Compile Include="Components\ComponentController.cs" />
+    <Compile Include="Components\ComponentModel.cs" />
     <Compile Include="Components\ContactDetails\ContactDetailsController.cs" />
     <Compile Include="Components\ContactDetails\ContactDetailsModel.cs" />
     <Compile Include="Components\ContactForm\ContactFormController.cs" />
