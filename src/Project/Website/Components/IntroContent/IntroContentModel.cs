@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.IntroContent
 {
-	public class IntroContentModel
+	public class IntroContentModel : ComponentModel
 	{
 	}
 }

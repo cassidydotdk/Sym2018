@@ -11,7 +11,7 @@ namespace Project.Website.Components.TopNavigation
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Top Navigation"), model);
+				return View(GetViewName("Top Navigation"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

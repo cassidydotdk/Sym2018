@@ -11,7 +11,7 @@ namespace Project.Website.Components.PortfolioItem
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Portfolio Item"), model);
+				return View(GetViewName("Portfolio Item"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

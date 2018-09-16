@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Header
 {
-	public class HeaderModel
+	public class HeaderModel : ComponentModel
 	{
 	}
 }

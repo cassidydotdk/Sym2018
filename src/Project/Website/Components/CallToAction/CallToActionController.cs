@@ -11,7 +11,7 @@ namespace Project.Website.Components.CallToAction
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Call to Action Section"), model);
+				return View(GetViewName("Call to Action Section"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

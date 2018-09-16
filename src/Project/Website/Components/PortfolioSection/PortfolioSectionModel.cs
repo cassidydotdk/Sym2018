@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.PortfolioSection
 {
-	public class PortfolioSectionModel
+	public class PortfolioSectionModel : ComponentModel
 	{
 	}
 }

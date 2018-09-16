@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.RelatedProjects
 {
-	public class RelatedProjectsModel
+	public class RelatedProjectsModel : ComponentModel
 	{
 	}
 }

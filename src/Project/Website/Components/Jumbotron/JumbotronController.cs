@@ -11,7 +11,7 @@ namespace Project.Website.Components.Jumbotron
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Jumbotron"), model);
+				return View(GetViewName("Jumbotron"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

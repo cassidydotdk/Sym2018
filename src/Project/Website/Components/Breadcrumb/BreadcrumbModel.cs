@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Breadcrumb
 {
-	public class BreadcrumbModel
+	public class BreadcrumbModel : ComponentModel
 	{
 	}
 }

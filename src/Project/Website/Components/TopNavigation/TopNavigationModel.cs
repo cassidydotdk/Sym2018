@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.TopNavigation
 {
-	public class TopNavigationModel
+	public class TopNavigationModel : ComponentModel
 	{
 	}
 }

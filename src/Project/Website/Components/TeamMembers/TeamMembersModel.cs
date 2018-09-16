@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.TeamMembers
 {
-	public class TeamMembersModel
+	public class TeamMembersModel : ComponentModel
 	{
 	}
 }

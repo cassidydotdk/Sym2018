@@ -11,7 +11,7 @@ namespace Project.Website.Components.RelatedProjects
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Related Projects"), model);
+				return View(GetViewName("Related Projects"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

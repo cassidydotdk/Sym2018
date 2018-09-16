@@ -11,7 +11,7 @@ namespace Project.Website.Components.IntroContent
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Intro Content"), model);
+				return View(GetViewName("Intro Content"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

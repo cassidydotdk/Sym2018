@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.ContactDetails
 {
-	public class ContactDetailsModel
+	public class ContactDetailsModel : ComponentModel
 	{
 	}
 }

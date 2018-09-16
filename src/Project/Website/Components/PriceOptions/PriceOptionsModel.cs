@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.PriceOptions
 {
-	public class PriceOptionsModel
+	public class PriceOptionsModel : ComponentModel
 	{
 	}
 }

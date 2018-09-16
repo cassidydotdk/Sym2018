@@ -11,7 +11,7 @@ namespace Project.Website.Components.ContactDetails
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Contact Details with Map"), model);
+				return View(GetViewName("Contact Details with Map"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

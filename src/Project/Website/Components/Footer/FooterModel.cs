@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Footer
 {
-	public class FooterModel
+	public class FooterModel : ComponentModel
 	{
 	}
 }

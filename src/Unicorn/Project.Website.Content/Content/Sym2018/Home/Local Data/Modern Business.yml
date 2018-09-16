@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "11da8efc-f6e6-4e4b-b11a-f72863628b7c"
       Hint: Heading
-      Value: "Welcome to Modern Business!!"
+      Value: Welcome to Modern Business
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180916T162901Z
@@ -28,4 +28,4 @@ Languages:
         sitecore\admin
     - ID: "8c9066b6-a913-4fa5-8c0b-d48f5c64f545"
       Hint: Subheading
-      Value: Subheading Test
+      Value: 

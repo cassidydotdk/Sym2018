@@ -11,7 +11,7 @@ namespace Project.Website.Components.Header
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Header"), model);
+				return View(GetViewName("Header"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

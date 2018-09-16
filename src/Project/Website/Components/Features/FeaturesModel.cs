@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Features
 {
-	public class FeaturesModel
+	public class FeaturesModel : ComponentModel
 	{
 	}
 }

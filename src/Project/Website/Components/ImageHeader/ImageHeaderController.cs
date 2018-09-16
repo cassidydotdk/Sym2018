@@ -11,7 +11,7 @@ namespace Project.Website.Components.ImageHeader
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Image Header"), model);
+				return View(GetViewName("Image Header"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

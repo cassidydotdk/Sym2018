@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.CallToAction
 {
-	public class CallToActionModel
+	public class CallToActionModel : ComponentModel
 	{
 	}
 }

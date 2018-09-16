@@ -11,7 +11,7 @@ namespace Project.Website.Components.Marketing_Icons
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Marketing Icons"), model);
+				return View(GetViewName("Marketing Icons"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

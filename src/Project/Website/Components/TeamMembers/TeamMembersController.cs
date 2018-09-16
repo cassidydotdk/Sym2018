@@ -11,7 +11,7 @@ namespace Project.Website.Components.TeamMembers
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Team Members"), model);
+				return View(GetViewName("Team Members"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

@@ -31,7 +31,7 @@ namespace Project.Website.Components.Portfolio
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName(viewVariant), model);
+				return View(GetViewName(viewVariant), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

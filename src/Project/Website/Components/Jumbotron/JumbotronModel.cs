@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Jumbotron
 {
-	public class JumbotronModel
+	public class JumbotronModel : ComponentModel
 	{
 	}
 }

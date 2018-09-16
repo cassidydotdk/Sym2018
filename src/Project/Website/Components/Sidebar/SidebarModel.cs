@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Sidebar
 {
-	public class SidebarModel
+	public class SidebarModel : ComponentModel
 	{
 	}
 }

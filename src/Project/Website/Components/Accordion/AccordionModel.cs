@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Project.Website.Components.Accordion
 {
-	public class AccordionModel
+	public class AccordionModel : ComponentModel
 	{
 	}
 }

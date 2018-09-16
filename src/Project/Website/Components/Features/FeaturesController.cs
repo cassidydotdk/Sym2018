@@ -11,7 +11,7 @@ namespace Project.Website.Components.Features
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Features"), model);
+				return View(GetViewName("Features"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

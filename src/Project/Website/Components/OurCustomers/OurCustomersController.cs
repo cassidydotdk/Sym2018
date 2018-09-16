@@ -11,7 +11,7 @@ namespace Project.Website.Components.OurCustomers
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Our Customers"), model);
+				return View(GetViewName("Our Customers"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

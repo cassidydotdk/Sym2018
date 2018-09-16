@@ -11,7 +11,7 @@ namespace Project.Website.Components.Sidebar
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Sidebar"), model);
+				return View(GetViewName("Sidebar"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

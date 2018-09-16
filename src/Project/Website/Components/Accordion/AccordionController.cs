@@ -11,7 +11,7 @@ namespace Project.Website.Components.Accordion
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Accordion"), model);
+				return View(GetViewName("Accordion"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

@@ -11,7 +11,7 @@ namespace Project.Website.Components.Breadcrumb
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Breadcrumb"), model);
+				return View(GetViewName("Breadcrumb"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

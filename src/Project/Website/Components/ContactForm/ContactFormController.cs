@@ -11,7 +11,7 @@ namespace Project.Website.Components.ContactForm
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Contact Form"), model);
+				return View(GetViewName("Contact Form"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

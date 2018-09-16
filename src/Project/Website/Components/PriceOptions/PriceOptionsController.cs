@@ -11,7 +11,7 @@ namespace Project.Website.Components.PriceOptions
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Price Options"), model);
+				return View(GetViewName("Price Options"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();

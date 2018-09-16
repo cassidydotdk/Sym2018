@@ -11,7 +11,7 @@ namespace Project.Website.Components.Footer
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{
 				var model = GetModel(actionItem);
-				return View(GetViewName("Footer"), model);
+				return View(GetViewName("Footer"), SetComponentProperties(model));
 			}
 
 			return DatasourceMissingResult();
