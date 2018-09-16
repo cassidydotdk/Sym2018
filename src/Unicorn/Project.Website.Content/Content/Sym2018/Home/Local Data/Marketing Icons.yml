@@ -1,27 +1,21 @@
 ﻿---
-ID: "91faa7b5-222e-409c-a7c5-f362e6d93328"
+ID: "cde843ca-dc9a-4da9-91c1-386dba1dc96c"
 Parent: "5f053e8e-8794-4cf8-ba1c-8782e50c1916"
-Template: "184e17b9-0b5a-41de-a7a4-58bcbc7612d9"
-Path: /sitecore/content/Sym2018/Home/Local Data/Modern Business
+Template: "4bde6fbc-ff66-4cef-8aae-4d39fa6689e5"
+Path: /sitecore/content/Sym2018/Home/Local Data/Marketing Icons
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 9
-- ID: "eb3e81ce-ceb5-41e0-9dfd-529612e19e53"
-  Hint: Heading Level
-  Value: 1
+  Value: 12
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "11da8efc-f6e6-4e4b-b11a-f72863628b7c"
-      Hint: Heading
-      Value: Welcome to Modern Business
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180916T162901Z
+      Value: 20180916T172528Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

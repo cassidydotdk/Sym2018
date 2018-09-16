@@ -1,13 +1,10 @@
 ﻿---
-ID: "91faa7b5-222e-409c-a7c5-f362e6d93328"
-Parent: "5f053e8e-8794-4cf8-ba1c-8782e50c1916"
+ID: "47c8a284-f36a-4e76-a607-2734877272d0"
+Parent: "62f76ff3-478f-4da4-bc5c-45f9089876be"
 Template: "184e17b9-0b5a-41de-a7a4-58bcbc7612d9"
-Path: /sitecore/content/Sym2018/Home/Local Data/Modern Business
+Path: /sitecore/content/Sym2018/Home/404/Local Data/404 Page not found
 DB: master
 SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 9
 - ID: "eb3e81ce-ceb5-41e0-9dfd-529612e19e53"
   Hint: Heading Level
   Value: 1
@@ -18,11 +15,14 @@ Languages:
     Fields:
     - ID: "11da8efc-f6e6-4e4b-b11a-f72863628b7c"
       Hint: Heading
-      Value: Welcome to Modern Business
+      Value: 404
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180916T162901Z
+      Value: 20180916T173905Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "8c9066b6-a913-4fa5-8c0b-d48f5c64f545"
+      Hint: Subheading
+      Value: Page Not Found

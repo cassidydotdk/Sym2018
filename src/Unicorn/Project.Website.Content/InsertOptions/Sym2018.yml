@@ -1,0 +1,126 @@
+﻿---
+ID: "4fdaf17c-23a5-41df-ae47-23452ac4703d"
+Parent: "ff0bc016-2d01-4f55-a020-ef6fc2fe7559"
+Template: "664e5035-eb8c-4ba1-9731-a098fcc9127a"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Sym2018
+DB: master
+SharedFields:
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: "font-weight: bolder;"
+- ID: "fa307b86-da2a-44bd-887d-e2057cdb4948"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{6D009513-2277-4E63-BB62-C50C8EE6F396}">
+        <conditions>
+          <and
+            uid="68B27183072A4EA7BACF8E350B5718F4">
+            <condition
+              id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}"
+              uid="662FECF713E44B5A8A22AA964D515B35"
+              itemid="{8D436184-C608-4B2A-81EB-4E5194ECB63B}" />
+            <condition
+              id="{944E1C68-CAF1-468E-87DC-CE85D168D961}"
+              uid="8C688952F470431A80649252F2420D8C"
+              operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+              value="Local Data" />
+          </and>
+        </conditions>
+        <actions>
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="B9342A6FAF7C4494A4450F9F28C14D3D"
+            insertoptionid="{40748B80-0E82-4A89-A7BF-43893DDF9159}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="BEEECED7AE0E46DDB7ECEFDCC20776D4"
+            insertoptionid="{0B000247-CDA0-416F-90EE-5D5BA280D37C}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="2A096C1F36014021B14FEE277FD7BBA6"
+            insertoptionid="{571A8122-9FAA-4933-94BA-63BA44CA83BF}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="1077B0044A3C4C22B7ACAF567CACFB6F"
+            insertoptionid="{9C02F239-57E5-44DF-B472-3906210E0556}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="DDE8CB0CFD6047D48F691B5A292346AF"
+            insertoptionid="{E39F11AE-B47A-4608-ADD5-E50ACFF584E5}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="9B7D902382DA406BA0A7945988F16571"
+            insertoptionid="{EE2D4898-735B-4D52-AF90-BB888EE3CE98}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="C412781A7E8A4F908433B7CB29B500D4"
+            insertoptionid="{184E17B9-0B5A-41DE-A7A4-58BCBC7612D9}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="45566A4BFBB942A6BEFF3459242A1F9C"
+            insertoptionid="{C2B60788-464C-470A-91F5-D6E071FCF536}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="B59B916F115948D4879B63AE46BE8466"
+            insertoptionid="{62A58549-76F1-484D-942E-CF69DE88AC8B}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="B4019E4A4651452F8F647E1E71FE9CDE"
+            insertoptionid="{1534DA3F-2202-4C4D-824A-F457301EECFC}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="B615A32E58B946D88F6A46CED0CAC7CD"
+            insertoptionid="{4BDE6FBC-FF66-4CEF-8AAE-4D39FA6689E5}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="8A37E2CE30A1481C9546F54303B5CD59"
+            insertoptionid="{8E951196-0F8E-4E73-ACA4-198899D9E027}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="917A80C719FD4134B3380CEA141999B3"
+            insertoptionid="{D3D6AE66-D778-442C-9515-275B6FA6FFC2}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="CE4EC8507A1E4CCF858FDB9174507EB8"
+            insertoptionid="{DC0435B2-4A96-4022-A4A0-33BC8D4DA2BD}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="C9D2EE6E5FCB41898E67808A9EB274E5"
+            insertoptionid="{F2103489-0499-40A4-B978-BA15B4900CBF}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="BEE35158237F468B8C67623D628A4307"
+            insertoptionid="{F87A0D0E-4925-4B3D-B47E-9A8C5757E084}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="F3BDEE3BF08845B687B990317F6EC564"
+            insertoptionid="{77205975-C758-4E9A-A54B-CCEAEA665657}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="05409D6456044B2DB6FC6F0A364910A2"
+            insertoptionid="{8E79A8EF-2EC0-4472-9902-2FBD73F4D1F5}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="05E861ADC5414E02BBE4A99A89E279BC"
+            insertoptionid="{80A8E42F-4329-45C3-A7D0-37DC78B68423}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T171858Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e0287d9-af90-41ad-8d36-332375e194d6"
+      Hint: Name
+      Value: Sym2018

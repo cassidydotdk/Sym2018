@@ -1,0 +1,18 @@
+﻿---
+ID: "a18cf2c3-ad5e-4ae8-b00e-002464bcbbfb"
+Parent: "5f053e8e-8794-4cf8-ba1c-8782e50c1916"
+Template: "0b000247-cda0-416f-90ee-5d5ba280d37c"
+Path: /sitecore/content/Sym2018/Home/Local Data/Call to Action
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T172553Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,49 @@
+﻿---
+ID: "74e8a18d-9a93-447d-b8e1-c68634cc4401"
+Parent: "11ee87a6-1ec4-4604-b2fa-7203db754692"
+Template: "92550bab-ca52-4cfc-a7ab-2c9b17517509"
+Path: /sitecore/content/Sym2018/Home/404
+DB: master
+BranchID: "88c3b868-89aa-4821-b02c-1522a08371ef"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{757FF503-299E-4D5B-B4B1-109B4E39D877}"
+          p:after="r[@uid='{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}']"
+          s:ds="{47C8A284-F36A-4E76-A607-2734877272D0}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{149D8BFC-8077-4F50-AED3-918A0408B649}"
+          p:after="r[@uid='{757FF503-299E-4D5B-B4B1-109B4E39D877}']"
+          s:id="{8670B522-D559-4AEE-8303-811AFABA9C17}"
+          s:ph="content" />
+        <r
+          uid="{539F5DE9-FB9D-4992-9979-344DCE0E8A85}"
+          p:after="*[1=2]"
+          s:ds="{588108C5-AAD9-4E08-95DE-93E165C0B9F7}"
+          s:id="{05B9C37E-DDCC-4274-9B37-59DC9AD6D437}"
+          s:par=""
+          s:ph="content" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2A0055B5-3F28-468A-8E5C-BAB29369672B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T173723Z

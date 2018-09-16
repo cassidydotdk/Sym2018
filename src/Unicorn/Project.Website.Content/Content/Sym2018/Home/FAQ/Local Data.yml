@@ -1,0 +1,26 @@
+﻿---
+ID: "f8c7aeee-b242-4add-a192-ad4fdeec909c"
+Parent: "5d6b0025-7b44-4449-bdc3-55ff77981e28"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Sym2018/Home/FAQ/Local Data
+DB: master
+BranchID: "88c3b868-89aa-4821-b02c-1522a08371ef"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/folder_blue.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F67659EB-8767-4569-A30B-D66B09E852D4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T174649Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

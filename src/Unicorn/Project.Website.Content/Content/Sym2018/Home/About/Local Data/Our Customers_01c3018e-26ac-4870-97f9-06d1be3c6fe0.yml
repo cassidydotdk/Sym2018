@@ -1,16 +1,13 @@
 ﻿---
-ID: "071bdfea-8b94-4915-92f4-bf7a60d38317"
-Parent: "5f053e8e-8794-4cf8-ba1c-8782e50c1916"
-Template: "184e17b9-0b5a-41de-a7a4-58bcbc7612d9"
-Path: /sitecore/content/Sym2018/Home/Local Data/CTA Break
+ID: "01c3018e-26ac-4870-97f9-06d1be3c6fe0"
+Parent: "149c4a86-63cd-4ca8-82a9-f1f43b65f9fb"
+Template: "8e951196-0f8e-4e73-aca4-198899d9e027"
+Path: /sitecore/content/Sym2018/Home/About/Local Data/Our Customers
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 75
-- ID: "eb3e81ce-ceb5-41e0-9dfd-529612e19e53"
-  Hint: Heading Level
-  Value: 0
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180916T163924Z
+      Value: 20180916T173316Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

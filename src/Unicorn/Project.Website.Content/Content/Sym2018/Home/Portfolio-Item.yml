@@ -1,0 +1,63 @@
+﻿---
+ID: "64a1feff-54cf-4720-af66-62c50fb187e0"
+Parent: "11ee87a6-1ec4-4604-b2fa-7203db754692"
+Template: "92550bab-ca52-4cfc-a7ab-2c9b17517509"
+Path: "/sitecore/content/Sym2018/Home/Portfolio-Item"
+DB: master
+BranchID: "88c3b868-89aa-4821-b02c-1522a08371ef"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DEE6CA00-3A16-44C1-A560-A01BC719D5B7}"
+          p:after="r[@uid='{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}']"
+          s:ds="{B850AF4E-89CA-4FDF-8827-9A80EF52816D}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{43B536F0-9ECA-4A24-A4A2-713E58DD0801}"
+          p:after="r[@uid='{DEE6CA00-3A16-44C1-A560-A01BC719D5B7}']"
+          s:id="{8670B522-D559-4AEE-8303-811AFABA9C17}"
+          s:ph="content" />
+        <r
+          uid="{69CC67D3-236E-4AC5-A8DD-BCBB5AC0DDA9}"
+          p:after="r[@uid='{43B536F0-9ECA-4A24-A4A2-713E58DD0801}']"
+          s:ds="{753AD555-6DFB-469D-94B0-1BC3051EE0B7}"
+          s:id="{C3AB0210-61BD-40BF-A45D-D4019B494D2A}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{DD21C69F-B849-4EC5-996C-E80A70A322A8}"
+          p:after="r[@uid='{69CC67D3-236E-4AC5-A8DD-BCBB5AC0DDA9}']"
+          s:ds="{C816428E-51E5-4BF3-A781-E5C838B326EC}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{A07AD29F-2C3A-4866-B954-DDB12FC5AF8E}"
+          p:after="*[1=2]"
+          s:ds="{C816428E-51E5-4BF3-A781-E5C838B326EC}"
+          s:id="{86E2CBDA-B961-4247-8FD0-568AB0D60B4C}"
+          s:par=""
+          s:ph="content" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2A0055B5-3F28-468A-8E5C-BAB29369672B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T175750Z

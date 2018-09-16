@@ -6,6 +6,64 @@ Path: /sitecore/content/Sym2018/Home/About
 DB: master
 BranchID: "88c3b868-89aa-4821-b02c-1522a08371ef"
 SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E39B46B2-B597-40CC-AF00-9BD1774E96FE}"
+          p:after="r[@uid='{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}']"
+          s:ds="{79E77D3D-C459-4890-94E1-E0F4753723D3}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{384F26DF-2A37-4A40-86CA-D05904568C53}"
+          p:after="r[@uid='{E39B46B2-B597-40CC-AF00-9BD1774E96FE}']"
+          s:id="{8670B522-D559-4AEE-8303-811AFABA9C17}"
+          s:ph="content" />
+        <r
+          uid="{4D0E87EF-FDE4-44A6-8170-3DDC10C3119D}"
+          p:after="r[@uid='{384F26DF-2A37-4A40-86CA-D05904568C53}']"
+          s:ds="{F309D0F2-447B-4A17-AFEF-EE63B93AE097}"
+          s:id="{867F0138-3C85-4724-8741-DAB0F7838F62}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{9145A5D3-C40F-4DB5-9036-39F979B2F3EC}"
+          p:after="r[@uid='{4D0E87EF-FDE4-44A6-8170-3DDC10C3119D}']"
+          s:ds="{AFE762DA-D8D1-4270-B592-0A48D4BD1DEF}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{7CF95185-AA70-4982-80DD-19FF0C3E94E7}"
+          p:after="r[@uid='{9145A5D3-C40F-4DB5-9036-39F979B2F3EC}']"
+          s:ds="{B8BD83E8-00DE-4A28-BB45-D513703D2916}"
+          s:id="{1677297E-E9CB-4DE5-AE18-839413129CC7}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{C7BD3E53-0270-43D8-96AF-4380BA3D2292}"
+          p:after="r[@uid='{7CF95185-AA70-4982-80DD-19FF0C3E94E7}']"
+          s:ds="{0EC6A0A6-F886-46F3-8C92-862FCBC22A1C}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{666A2E7C-91AC-49BF-8F24-664CBCC682E8}"
+          p:after="*[1=2]"
+          s:ds="{01C3018E-26AC-4870-97F9-06D1BE3C6FE0}"
+          s:id="{6D9030B2-AA66-452A-8122-AF978E79B2BF}"
+          s:par=""
+          s:ph="content" />
+      </d>
+    </r>
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2A0055B5-3F28-468A-8E5C-BAB29369672B}"

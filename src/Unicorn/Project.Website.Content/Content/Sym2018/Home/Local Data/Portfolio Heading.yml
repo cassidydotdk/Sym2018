@@ -5,6 +5,9 @@ Template: "184e17b9-0b5a-41de-a7a4-58bcbc7612d9"
 Path: /sitecore/content/Sym2018/Home/Local Data/Portfolio Heading
 DB: master
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 19
 - ID: "eb3e81ce-ceb5-41e0-9dfd-529612e19e53"
   Hint: Heading Level
   Value: 2
