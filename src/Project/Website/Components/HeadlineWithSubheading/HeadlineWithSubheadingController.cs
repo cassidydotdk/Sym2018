@@ -19,7 +19,14 @@ namespace Project.Website.Components.HeadlineWithSubheading
 
 		protected virtual HeadlineWithSubheadingModel GetModel(Item actionItem)
 		{
-			return new HeadlineWithSubheadingModel();
+			int.TryParse(actionItem["Heading Level"], out var level);
+
+			return new HeadlineWithSubheadingModel()
+			{
+				HeadingLevel = level,
+				Heading = actionItem["Heading"],
+				Subheading = actionItem["Subheading"],
+			};
 		}
 	}
 }

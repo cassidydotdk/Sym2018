@@ -1,0 +1,25 @@
+﻿---
+ID: "017c6bc9-9c7a-4dd3-a6e6-ab4111507c14"
+Parent: "5f053e8e-8794-4cf8-ba1c-8782e50c1916"
+Template: "184e17b9-0b5a-41de-a7a4-58bcbc7612d9"
+Path: /sitecore/content/Sym2018/Home/Local Data/Portfolio Heading
+DB: master
+SharedFields:
+- ID: "eb3e81ce-ceb5-41e0-9dfd-529612e19e53"
+  Hint: Heading Level
+  Value: 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11da8efc-f6e6-4e4b-b11a-f72863628b7c"
+      Hint: Heading
+      Value: Portfolio Heading
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T163915Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

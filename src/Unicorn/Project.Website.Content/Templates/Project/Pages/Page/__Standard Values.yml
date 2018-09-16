@@ -1,8 +1,8 @@
 ﻿---
-ID: "b3c626f1-4e6f-47e2-ae86-c047b9ec19bc"
-Parent: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
-Template: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
-Path: /sitecore/templates/Project/Site Root/__Standard Values
+ID: "6d0caca0-6d68-49dd-83a2-c78cbc5455f2"
+Parent: "92550bab-ca52-4cfc-a7ab-2c9b17517509"
+Template: "92550bab-ca52-4cfc-a7ab-2c9b17517509"
+Path: /sitecore/templates/Project/Pages/Page/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
@@ -13,7 +13,7 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <r>
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{8DC357F4-9ECC-4B32-BE03-9ACA4B3E3559}">
@@ -34,7 +34,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180821T193216Z
+      Value: 20180916T164257Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

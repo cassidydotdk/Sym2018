@@ -1,0 +1,19 @@
+﻿---
+ID: "eb5c27c6-8ed5-49f5-9eaf-36ef8badee78"
+Parent: "11ee87a6-1ec4-4604-b2fa-7203db754692"
+Template: "92550bab-ca52-4cfc-a7ab-2c9b17517509"
+Path: /sitecore/content/Sym2018/Home/About
+DB: master
+BranchID: "88c3b868-89aa-4821-b02c-1522a08371ef"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2A0055B5-3F28-468A-8E5C-BAB29369672B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T165218Z

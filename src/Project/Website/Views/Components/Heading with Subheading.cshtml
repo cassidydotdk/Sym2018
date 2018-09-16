@@ -4,7 +4,33 @@
 
 @model Project.Website.Components.HeadlineWithSubheading.HeadlineWithSubheadingModel
 
-<!-- Page Heading/Breadcrumbs -->
-<h1 class="mt-4 mb-3">About
-    <small>Subheading</small>
-</h1>
+<!-- Page Heading -->
+@if (Model.HeadingLevel == 1)
+{
+    if (!string.IsNullOrWhiteSpace(Model.Subheading))
+    {
+        <h1 class="mt-4 mb-3">
+            @Model.Heading
+            <small>@Model.Subheading</small>
+        </h1>
+    }
+    else
+    {
+        <h1 class="my-4">@Model.Heading</h1>
+    }
+}
+
+@if (Model.HeadingLevel == 2)
+{
+    <h2>@Model.Heading</h2>
+}
+
+@if (Model.HeadingLevel == 3)
+{
+    <h3>@Model.Heading</h3>
+}
+
+@if (Model.HeadingLevel == 0 || string.IsNullOrWhiteSpace(Model.Heading))
+{
+    <hr />
+}

@@ -4,6 +4,66 @@ Parent: "8d436184-c608-4b2a-81eb-4e5194ecb63b"
 Template: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
 Path: /sitecore/content/Sym2018/Home
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C25521AA-ED99-46D6-AAE4-A858390ED25D}"
+          p:after="r[@uid='{CA4D5512-5E3D-45E8-9652-0222BC3A93B8}']"
+          s:id="{957DB352-ACCB-466D-BEED-48FA46AB64BB}"
+          s:ph="top" />
+        <r
+          uid="{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}"
+          p:after="r[@uid='{C25521AA-ED99-46D6-AAE4-A858390ED25D}']" />
+        <r
+          uid="{43CECC56-6A92-44F0-8A7F-CE84E54CB8C9}"
+          p:after="r[@uid='{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}']"
+          s:ds="{91FAA7B5-222E-409C-A7C5-F362E6D93328}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{2CE0F47B-B6DA-4A5E-A58A-134D7694FA61}"
+          p:after="r[@uid='{43CECC56-6A92-44F0-8A7F-CE84E54CB8C9}']"
+          s:id="{8DA791FD-8BEA-4D3C-9E5C-FDB9E64806E0}"
+          s:ph="content" />
+        <r
+          uid="{C7B2B465-D712-4AE7-8F01-8AED4CCA7E72}"
+          p:after="r[@uid='{2CE0F47B-B6DA-4A5E-A58A-134D7694FA61}']"
+          s:ds="{017C6BC9-9C7A-4DD3-A6E6-AB4111507C14}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{A433B497-0D4A-4D7A-8B21-32BF4094FAAC}"
+          p:after="r[@uid='{C7B2B465-D712-4AE7-8F01-8AED4CCA7E72}']"
+          s:id="{21BDE1A1-7963-427D-BCF7-0EF19AA8D383}"
+          s:ph="content" />
+        <r
+          uid="{5B2A5FEA-F5F2-4BE4-BC43-9121DB487CE3}"
+          p:after="r[@uid='{A433B497-0D4A-4D7A-8B21-32BF4094FAAC}']"
+          s:id="{72100224-934D-4423-9C84-EB7BCEC52477}"
+          s:ph="content" />
+        <r
+          uid="{5905063F-B8E2-42F2-A357-A9D93E60B84A}"
+          p:after="r[@uid='{5B2A5FEA-F5F2-4BE4-BC43-9121DB487CE3}']"
+          s:ds="{071BDFEA-8B94-4915-92F4-BF7A60D38317}"
+          s:id="{9F18C677-24F3-47F6-9034-A6EEC8CA6357}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{A3BAF1AF-9585-4FD7-A206-61B2D3DCC580}"
+          p:after="*[1=2]"
+          s:id="{4D84C281-82C1-4FAA-87B9-9688B80899DF}"
+          s:ph="content" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
