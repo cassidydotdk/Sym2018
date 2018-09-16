@@ -17,10 +17,10 @@ SharedFields:
     <image mediaid="{30771D89-23C4-48D4-9168-E7CD3B2F4E93}" />
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: Item
+  Value: Index
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Portfolio
+  Value: PortfolioItem
 Languages:
 - Language: en
   Versions:

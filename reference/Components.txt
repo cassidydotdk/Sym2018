@@ -1,29 +1,29 @@
---- Top Navigation
---- Header	(sits at body level) - it's a Carousel really, but whatever
---- Marketing Icons
---- Portfolio Section
---- Features
---- Call to Action
---- Footer	(sits at body level) 
---- Headline With Subheading (Think I'll expand this one, to deal with all the Headings. H1/H2/H3 etc)
---- Breadcrumb
---- Image Header
---- Jumbotron
---- Intro Content
---- Team Members	(looks like it might just be displaying cards and could therefore be reused)
---- Our Customers
---- Contact Details (with map)
---- Contact Form	(this form requires some additional javascript at the bottom of the html)
---- Accordion (for FAQ etc)
+---- Top Navigation
+---- Header	(sits at body level) - it's a Carousel really, but whatever
+---- Marketing Icons
+---- Portfolio Section
+---- Features
+---- Call to Action
+---- Footer	(sits at body level) 
+---- Headline With Subheading (Think I'll expand this one, to deal with all the Headings. H1/H2/H3 etc)
+---- Breadcrumb
+---- Image Header
+---- Jumbotron
+---- Intro Content
+---- Team Members	(looks like it might just be displaying cards and could therefore be reused)
+---- Our Customers
+---- Contact Details (with map)
+---- Contact Form	(this form requires some additional javascript at the bottom of the html)
+---- Accordion (for FAQ etc)
 Rich Text (sits at container level)
---- Full Width Portfolio Listing
---- 2 Column Portfolio Listing
---- 3 Column Portfolio Listing
---- 4 Column Portfolio Listing
---- Portfolio Item
---- Related Projects
---- Price Options (may cut from scope)
---- Sidebar (seems to be some form of Sitemap)
+---- Full Width Portfolio Listing
+---- 2 Column Portfolio Listing
+---- 3 Column Portfolio Listing
+---- 4 Column Portfolio Listing
+---- Portfolio Item
+---- Related Projects
+---- Price Options (may cut from scope)
+---- Sidebar (seems to be some form of Sitemap)
 
 
 [Blog Section]

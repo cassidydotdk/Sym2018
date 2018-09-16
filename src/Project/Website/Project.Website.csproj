@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Project.Website</RootNamespace>
     <AssemblyName>Project.Website</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -24,6 +24,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -78,40 +79,39 @@
     <Reference Include="Sitecore.Mvc.Analytics">
       <HintPath>..\..\..\lib\Sitecore\Sitecore.Mvc.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.6\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Razor.3.2.6\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.WebPages.3.2.6\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="Unicorn, Version=4.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Unicorn.Core.4.0.4\lib\net452\Unicorn.dll</HintPath>
     </Reference>
@@ -185,19 +185,67 @@
     <Content Include="Views\Components\Sidebar.cshtml" />
     <Content Include="Views\Components\Image Header.cshtml" />
     <Content Include="Views\Components\Jumbotron.cshtml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\z.UnicornConfigs\Project.Website.config" />
-    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\Accordion\AccordionController.cs" />
+    <Compile Include="Components\Accordion\AccordionModel.cs" />
+    <Compile Include="Components\Breadcrumb\BreadcrumbController.cs" />
+    <Compile Include="Components\Breadcrumb\BreadcrumbModel.cs" />
+    <Compile Include="Components\CallToAction\CallToActionController.cs" />
+    <Compile Include="Components\CallToAction\CallToActionModel.cs" />
+    <Compile Include="Components\ComponentController.cs" />
+    <Compile Include="Components\ContactDetails\ContactDetailsController.cs" />
+    <Compile Include="Components\ContactDetails\ContactDetailsModel.cs" />
+    <Compile Include="Components\ContactForm\ContactFormController.cs" />
+    <Compile Include="Components\ContactForm\ContactFormModel.cs" />
+    <Compile Include="Components\Features\FeaturesController.cs" />
+    <Compile Include="Components\Features\FeaturesModel.cs" />
+    <Compile Include="Components\Footer\FooterController.cs" />
+    <Compile Include="Components\Footer\FooterModel.cs" />
+    <Compile Include="Components\Header\HeaderController.cs" />
+    <Compile Include="Components\Header\HeaderModel.cs" />
+    <Compile Include="Components\HeadlineWithSubheading\HeadlineWithSubheadingController.cs" />
+    <Compile Include="Components\HeadlineWithSubheading\HeadlineWithSubheadingModel.cs" />
+    <Compile Include="Components\ImageHeader\ImageHeaderController.cs" />
+    <Compile Include="Components\ImageHeader\ImageHeaderModel.cs" />
+    <Compile Include="Components\IntroContent\IntroContentController.cs" />
+    <Compile Include="Components\IntroContent\IntroContentModel.cs" />
+    <Compile Include="Components\Jumbotron\JumbotronController.cs" />
+    <Compile Include="Components\Jumbotron\JumbotronModel.cs" />
+    <Compile Include="Components\Marketing Icons\MarketingIconsController.cs" />
+    <Compile Include="Components\Marketing Icons\MarketingIconsModel.cs" />
+    <Compile Include="Components\OurCustomers\OurCustomersController.cs" />
+    <Compile Include="Components\OurCustomers\OurCustomersModel.cs" />
+    <Compile Include="Components\PortfolioItem\PortfolioItemController.cs" />
+    <Compile Include="Components\PortfolioItem\PortfolioItemModel.cs" />
+    <Compile Include="Components\PortfolioSection\PortfolioSectionController.cs" />
+    <Compile Include="Components\PortfolioSection\PortfolioSectionModel.cs" />
+    <Compile Include="Components\Portfolio\PortfolioListingController.cs" />
+    <Compile Include="Components\Portfolio\PortfolioListingModel.cs" />
+    <Compile Include="Components\PriceOptions\PriceOptionsController.cs" />
+    <Compile Include="Components\PriceOptions\PriceOptionsModel.cs" />
+    <Compile Include="Components\RelatedProjects\RelatedProjectsController.cs" />
+    <Compile Include="Components\RelatedProjects\RelatedProjectsModel.cs" />
+    <Compile Include="Components\Sidebar\SidebarController.cs" />
+    <Compile Include="Components\Sidebar\SidebarModel.cs" />
+    <Compile Include="Components\TeamMembers\TeamMembersController.cs" />
+    <Compile Include="Components\TeamMembers\TeamMembersModel.cs" />
+    <Compile Include="Components\TopNavigation\TopNavigationController.cs" />
+    <Compile Include="Components\TopNavigation\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="web.config" />
+    <Content Include="Views\Web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

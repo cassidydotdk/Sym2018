@@ -27,7 +27,7 @@ SharedFields:
     {3E933FF9-F805-41C5-8E99-26FC62FB55F8}
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Portfolio
+  Value: PortfolioListing
 Languages:
 - Language: en
   Versions:
