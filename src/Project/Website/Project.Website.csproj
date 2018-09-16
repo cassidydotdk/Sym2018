@@ -160,6 +160,31 @@
     <Content Include="vendor\bootstrap\js\bootstrap.min.js.map" />
     <Content Include="vendor\jquery\jquery.min.map" />
     <Content Include="vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Views\Components\Top Navigation.cshtml" />
+    <Content Include="Views\Components\Header.cshtml" />
+    <Content Include="Views\Components\Marketing Icons.cshtml" />
+    <Content Include="Views\Components\Portfolio Section.cshtml" />
+    <Content Include="Views\Components\Features.cshtml" />
+    <Content Include="Views\Components\Call to Action Section.cshtml" />
+    <Content Include="Views\Components\Footer.cshtml" />
+    <Content Include="Views\Components\Heading with Subheading.cshtml" />
+    <Content Include="Views\Components\Breadcrumb.cshtml" />
+    <Content Include="Views\Components\Intro Content.cshtml" />
+    <Content Include="Views\Components\Team Members.cshtml" />
+    <Content Include="Views\Components\Our Customers.cshtml" />
+    <Content Include="Views\Components\Contact Details with Map.cshtml" />
+    <Content Include="Views\Components\Contact Form.cshtml" />
+    <Content Include="Views\Components\Accordion.cshtml" />
+    <Content Include="Views\Components\Full Width Portfolio Listing.cshtml" />
+    <Content Include="Views\Components\2 Column Portfolio Listing.cshtml" />
+    <Content Include="Views\Components\3 Column Portfolio Listing.cshtml" />
+    <Content Include="Views\Components\4 Column Portfolio Listing.cshtml" />
+    <Content Include="Views\Components\Portfolio Item.cshtml" />
+    <Content Include="Views\Components\Related Projects.cshtml" />
+    <Content Include="Views\Components\Price Options.cshtml" />
+    <Content Include="Views\Components\Sidebar.cshtml" />
+    <Content Include="Views\Components\Image Header.cshtml" />
+    <Content Include="Views\Components\Jumbotron.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -174,6 +199,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

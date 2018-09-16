@@ -1,0 +1,22 @@
+﻿---
+ID: "1cdfa7fb-1aa4-482f-acfc-c5f37e0247a5"
+Parent: "8e79a8ef-2ec0-4472-9902-2fbd73f4d1f5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Components/Sidebar/Sidebar
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/window_sidebar.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T130551Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

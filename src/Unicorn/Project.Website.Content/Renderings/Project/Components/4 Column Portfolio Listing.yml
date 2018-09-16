@@ -1,0 +1,38 @@
+﻿---
+ID: "f897a1da-7a24-485a-861d-c103c5a94b92"
+Parent: "9b8a894f-b825-4223-af19-2bf197e5e297"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Project/Components/4 Column Portfolio Listing
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/form_yellow_edit.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Components/Portfolio Listing
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8F1F39A1-9076-4090-829A-CCB16D6B732D}" />
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FourColumn
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Type: Treelist
+  Value: |
+    {46EA5E1E-B314-4FBA-BBE1-EE3DCAC6D9C4}
+    {3032AB92-C721-44FF-AC4D-23B47B51D0D8}
+    {3E933FF9-F805-41C5-8E99-26FC62FB55F8}
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Portfolio
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180916T133243Z
