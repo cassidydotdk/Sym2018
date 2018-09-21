@@ -19,7 +19,10 @@ namespace Project.Website.Components.Footer
 
 		protected virtual FooterModel GetModel(Item actionItem)
 		{
-			return new FooterModel();
+			return new FooterModel
+			{
+				Text = actionItem["Footer Text"],
+			};
 		}
 	}
 }

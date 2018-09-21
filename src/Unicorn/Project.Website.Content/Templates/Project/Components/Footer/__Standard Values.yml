@@ -1,0 +1,21 @@
+﻿---
+ID: "5be979d3-fd4a-4776-91f2-ea3b29176c28"
+Parent: "5f40d8fd-9192-44b7-89f4-1a3dd562c9ab"
+Template: "5f40d8fd-9192-44b7-89f4-1a3dd562c9ab"
+Path: /sitecore/templates/Project/Components/Footer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T125535Z
+    - ID: "49d1fc78-e8b9-4316-955b-8469bab2eb9e"
+      Hint: Footer Text
+      Value: Copyright &copy; Your Website 2018
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
