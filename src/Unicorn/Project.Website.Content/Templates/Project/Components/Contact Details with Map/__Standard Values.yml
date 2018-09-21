@@ -1,0 +1,49 @@
+﻿---
+ID: "4bb64948-ea68-4f11-8a37-4888e4adcba9"
+Parent: "571a8122-9faa-4933-94ba-63ba44ca83bf"
+Template: "571a8122-9faa-4933-94ba-63ba44ca83bf"
+Path: /sitecore/templates/Project/Components/Contact Details with Map/__Standard Values
+DB: master
+SharedFields:
+- ID: "110e5316-16e5-493a-867a-9e6dd13612bd"
+  Hint: Contact Details with Map Latitude
+  Value: 37.0625
+- ID: "5ee0e506-9f84-4e2d-9b40-bc10cc078dca"
+  Hint: Contact Details with Map Longitude
+  Value: "-95.677068"
+- ID: "c96c680f-918a-46b8-a887-a9b7e4558b11"
+  Hint: Contact Details with Map Span
+  Value: 56.506174,79.013672
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e8f3499-96bc-4a2c-acfb-883d0be6aba3"
+      Hint: Contact Details with Map Text
+      Value: |
+                <h3>Contact Details</h3>
+                <p>
+                    3481 Melrose Place
+                    <br />Beverly Hills, CA 90210
+                    <br />
+                </p>
+                <p>
+                    <abbr title="Phone">P</abbr>: (123) 456-7890
+                </p>
+                <p>
+                    <abbr title="Email">E</abbr>:
+                    <a href="mailto:name@example.com">name@example.com
+                    </a>
+                </p>
+                <p>
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+                </p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T125843Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
