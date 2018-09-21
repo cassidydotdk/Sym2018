@@ -1,0 +1,17 @@
+﻿---
+ID: "858ac15d-413f-47de-9b43-48ebc1ad31b3"
+Parent: "28e1d9ec-ba06-4164-be35-c8f2a7a1407c"
+Template: "5e49eafc-77cb-4e65-ab51-37ec7814f144"
+Path: /sitecore/content/Sym2018/Site Shared Data/Accordion Items/Global Accordion Item 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T113932Z
+    - ID: "5d96ece2-e4a4-4ae2-a2de-3cf0da444b53"
+      Hint: Accordion Item Headline
+      Value: Global Collapsible Group Item #1

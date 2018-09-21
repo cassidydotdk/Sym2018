@@ -1,0 +1,23 @@
+﻿---
+ID: "c90e1383-ea15-4d94-8fdd-40e0edecc8fa"
+Parent: "40748b80-0e82-4a89-a7bf-43893ddf9159"
+Template: "40748b80-0e82-4a89-a7bf-43893ddf9159"
+Path: /sitecore/templates/Project/Components/Accordion/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{5E49EAFC-77CB-4E65-AB51-37EC7814F144}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T112710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,24 @@
+﻿---
+ID: "bbb85b13-a45e-402a-a9c8-5476c805d18f"
+Parent: "5e49eafc-77cb-4e65-ab51-37ec7814f144"
+Template: "5e49eafc-77cb-4e65-ab51-37ec7814f144"
+Path: /sitecore/templates/Project/Components/Accordion Item/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T112341Z
+    - ID: "5d96ece2-e4a4-4ae2-a2de-3cf0da444b53"
+      Hint: Accordion Item Headline
+      Value: Collapsible Group Item #1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "61ab1403-ac3d-4b26-b547-3f52c980250b"
+      Hint: Accordion Item Text
+      Value: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."

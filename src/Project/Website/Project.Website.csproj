@@ -191,6 +191,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\Accordion\AccordionController.cs" />
+    <Compile Include="Components\Accordion\AccordionItemModel.cs" />
     <Compile Include="Components\Accordion\AccordionModel.cs" />
     <Compile Include="Components\Breadcrumb\BreadcrumbController.cs" />
     <Compile Include="Components\Breadcrumb\BreadcrumbModel.cs" />

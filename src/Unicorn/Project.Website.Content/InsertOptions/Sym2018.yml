@@ -106,6 +106,10 @@ SharedFields:
             id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
             uid="05E861ADC5414E02BBE4A99A89E279BC"
             insertoptionid="{80A8E42F-4329-45C3-A7D0-37DC78B68423}" />
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="A12E8BC0AD5C454FBEB536FD0CF41089"
+            insertoptionid="{C1A0917F-B7F1-4ED9-AFA2-78FC2BFE1C29}" />
         </actions>
       </rule>
     </ruleset>

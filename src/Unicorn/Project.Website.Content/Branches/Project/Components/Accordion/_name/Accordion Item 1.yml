@@ -1,0 +1,14 @@
+﻿---
+ID: "8c2e90ac-0363-4836-a575-9bf734df5144"
+Parent: "cb7b491f-4e82-44de-ba9a-946c79c87b5e"
+Template: "5e49eafc-77cb-4e65-ab51-37ec7814f144"
+Path: /sitecore/templates/Branches/Project/Components/Accordion/$name/Accordion Item 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T113503Z
