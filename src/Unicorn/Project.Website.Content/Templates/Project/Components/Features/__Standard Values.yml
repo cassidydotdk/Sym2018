@@ -1,0 +1,34 @@
+﻿---
+ID: "c0e0ee85-d770-4f0b-ada1-069560096752"
+Parent: "e39f11ae-b47a-4608-add5-e50acff584e5"
+Template: "e39f11ae-b47a-4608-add5-e50acff584e5"
+Path: /sitecore/templates/Project/Components/Features/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T104401Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "75fd0ce3-d32b-4f0e-bf5e-a4c41d2feea5"
+      Hint: Features Text
+      Value: |
+                <h2>Modern Business Features</h2>
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li>
+                        <strong>Bootstrap v4</strong>
+                    </li>
+                    <li>jQuery</li>
+                    <li>Font Awesome</li>
+                    <li>Working contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        

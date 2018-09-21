@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Presentation;
+using Sitecore.Resources.Media;
 using Sitecore.Web.UI.WebControls;
 
 namespace Project.Website.Components
@@ -55,6 +57,32 @@ namespace Project.Website.Components
 			}
 
 			return new HtmlString(FieldRenderer.Render(item, fieldName, parameters));
+		}
+
+		public virtual Tuple<string, string> GetImageUrlAndAlt(ImageField imageField, int? maxWidth = null, int? maxHeight = null)
+		{
+			if (imageField?.MediaItem != null)
+			{
+				var mo = new MediaUrlOptions
+				{
+					MaxWidth = 750,
+					MaxHeight = 450,
+				};
+
+				var url = MediaManager.GetMediaUrl(imageField.MediaItem, mo);
+				var protectedUrl = HashingUtils.ProtectAssetUrl(url);
+
+				return new Tuple<string, string>(protectedUrl, imageField.Alt);
+			}
+			else
+			{
+				if (maxWidth != null && maxHeight != null)
+				{
+					return new Tuple<string, string>($"http://placehold.it/{maxWidth}x{maxHeight}", "Dummy placeholder image");
+				}
+
+				return new Tuple<string, string>("#", "no image");
+			}
 		}
 	}
 }

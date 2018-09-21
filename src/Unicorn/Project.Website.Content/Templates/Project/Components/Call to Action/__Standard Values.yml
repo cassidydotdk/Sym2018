@@ -1,0 +1,24 @@
+﻿---
+ID: "87b2fd51-498f-4585-bf7c-0e50a539c991"
+Parent: "0b000247-cda0-416f-90ee-5d5ba280d37c"
+Template: "0b000247-cda0-416f-90ee-5d5ba280d37c"
+Path: /sitecore/templates/Project/Components/Call to Action/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0209f4a7-32b1-4747-8dde-10743bad3737"
+      Hint: Call to Action Text
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T102315Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f9202d2c-55a6-49f0-a496-8e8c9e467969"
+      Hint: Call to Action Button Text
+      Value: Call to Action

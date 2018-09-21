@@ -19,7 +19,15 @@ namespace Project.Website.Components.ImageHeader
 
 		protected virtual ImageHeaderModel GetModel(Item actionItem)
 		{
-			return new ImageHeaderModel();
+			var imageUrl = GetImageUrlAndAlt(actionItem.Fields["Image Header Image"], 1200, 300);
+
+			var model = new ImageHeaderModel
+			{
+				ImageUrl = imageUrl.Item1,
+				ImageAlt = imageUrl.Item2,
+			};
+
+			return model;
 		}
 	}
 }

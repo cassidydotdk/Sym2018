@@ -19,7 +19,17 @@ namespace Project.Website.Components.PortfolioItem
 
 		protected virtual PortfolioItemModel GetModel(Item actionItem)
 		{
-			return new PortfolioItemModel();
+			var model = new PortfolioItemModel
+			{
+				Text = RenderField(actionItem, "Portfolio Item Text"),
+			};
+
+			var imageUrl = GetImageUrlAndAlt(actionItem.Fields["Portfolio Item Image"], 750, 500);
+
+			model.ImageUrl = imageUrl.Item1;
+			model.ImageAlt = imageUrl.Item2;
+
+			return model;
 		}
 	}
 }

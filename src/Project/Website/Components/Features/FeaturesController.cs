@@ -19,7 +19,17 @@ namespace Project.Website.Components.Features
 
 		protected virtual FeaturesModel GetModel(Item actionItem)
 		{
-			return new FeaturesModel();
+			var model = new FeaturesModel
+			{
+				Text = RenderField(actionItem, "Features Text"),
+			};
+
+			var imageUrl = GetImageUrlAndAlt(actionItem.Fields["Features Image"], 700, 450);
+
+			model.ImageUrl = imageUrl.Item1;
+			model.ImageAlt = imageUrl.Item2;
+
+			return model;
 		}
 	}
 }
