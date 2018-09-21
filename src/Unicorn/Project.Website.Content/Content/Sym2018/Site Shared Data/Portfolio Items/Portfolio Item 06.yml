@@ -1,0 +1,14 @@
+﻿---
+ID: "618554b5-428f-453f-8529-23d22315daad"
+Parent: "0fb5054e-fe41-4205-bff9-9457762cb639"
+Template: "d3d6ae66-d778-442c-9515-275b6fa6ffc2"
+Path: /sitecore/content/Sym2018/Site Shared Data/Portfolio Items/Portfolio Item 06
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T145216Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "fb44105d-7dba-449c-a3e4-a9d7d5d080dc"
+Parent: "dc0435b2-4a96-4022-a4a0-33bc8d4da2bd"
+Template: "dc0435b2-4a96-4022-a4a0-33bc8d4da2bd"
+Path: /sitecore/templates/Project/Components/Portfolio Listing/__Standard Values
+DB: master
+SharedFields:
+- ID: "e8de5991-14bc-4de5-8904-28fa934d6f15"
+  Hint: Portfolio Item Repository
+  Value: "{0FB5054E-FE41-4205-BFF9-9457762CB639}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T141706Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e969a588-6dba-43f5-a66c-b5ccfc023259"
+      Hint: Portfolio Listing View Project Text
+      Value: View Project

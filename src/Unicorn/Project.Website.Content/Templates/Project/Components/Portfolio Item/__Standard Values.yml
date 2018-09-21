@@ -4,6 +4,10 @@ Parent: "d3d6ae66-d778-442c-9515-275b6fa6ffc2"
 Template: "d3d6ae66-d778-442c-9515-275b6fa6ffc2"
 Path: /sitecore/templates/Project/Components/Portfolio Item/__Standard Values
 DB: master
+SharedFields:
+- ID: "d4c13a2f-fc97-4a2f-9180-505fc2cbed6d"
+  Hint: Portfolio Item Title
+  Value: Project Name
 Languages:
 - Language: en
   Versions:
@@ -12,6 +16,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180921T105928Z
+    - ID: "277edfa3-d852-4248-8dfd-8e89d19c52db"
+      Hint: Portfolio Item Short Description
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

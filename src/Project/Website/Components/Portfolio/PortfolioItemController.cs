@@ -1,10 +1,17 @@
 ﻿using System.Web.Mvc;
 using Sitecore.Data.Items;
 
-namespace Project.Website.Components.PortfolioItem
+namespace Project.Website.Components.Portfolio
 {
 	public class PortfolioItemController : ComponentController
 	{
+		private readonly PortfolioRepository _portfolioRepository;
+
+		public PortfolioItemController()
+		{
+			_portfolioRepository = new PortfolioRepository();
+		}
+
 		public virtual ActionResult Index()
 		{
 			var actionItem = GetActionItem();
@@ -19,17 +26,7 @@ namespace Project.Website.Components.PortfolioItem
 
 		protected virtual PortfolioItemModel GetModel(Item actionItem)
 		{
-			var model = new PortfolioItemModel
-			{
-				Text = RenderField(actionItem, "Portfolio Item Text"),
-			};
-
-			var imageUrl = GetImageUrlAndAlt(actionItem.Fields["Portfolio Item Image"], 750, 500);
-
-			model.ImageUrl = imageUrl.Item1;
-			model.ImageAlt = imageUrl.Item2;
-
-			return model;
+			return _portfolioRepository.GetPortfolioItemModel(actionItem, 750, 500);
 		}
 	}
 }

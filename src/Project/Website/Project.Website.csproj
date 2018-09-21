@@ -175,10 +175,7 @@
     <Content Include="Views\Components\Contact Details with Map.cshtml" />
     <Content Include="Views\Components\Contact Form.cshtml" />
     <Content Include="Views\Components\Accordion.cshtml" />
-    <Content Include="Views\Components\Full Width Portfolio Listing.cshtml" />
-    <Content Include="Views\Components\2 Column Portfolio Listing.cshtml" />
-    <Content Include="Views\Components\3 Column Portfolio Listing.cshtml" />
-    <Content Include="Views\Components\4 Column Portfolio Listing.cshtml" />
+    <Content Include="Views\Components\Portfolio Listing Full Width.cshtml" />
     <Content Include="Views\Components\Portfolio Item.cshtml" />
     <Content Include="Views\Components\Related Projects.cshtml" />
     <Content Include="Views\Components\Price Options.cshtml" />
@@ -222,12 +219,13 @@
     <Compile Include="Components\Marketing Icons\MarketingIconsModel.cs" />
     <Compile Include="Components\OurCustomers\OurCustomersController.cs" />
     <Compile Include="Components\OurCustomers\OurCustomersModel.cs" />
-    <Compile Include="Components\PortfolioItem\PortfolioItemController.cs" />
-    <Compile Include="Components\PortfolioItem\PortfolioItemModel.cs" />
+    <Compile Include="Components\Portfolio\PortfolioItemController.cs" />
+    <Compile Include="Components\Portfolio\PortfolioItemModel.cs" />
     <Compile Include="Components\PortfolioSection\PortfolioSectionController.cs" />
     <Compile Include="Components\PortfolioSection\PortfolioSectionModel.cs" />
     <Compile Include="Components\Portfolio\PortfolioListingController.cs" />
     <Compile Include="Components\Portfolio\PortfolioListingModel.cs" />
+    <Compile Include="Components\Portfolio\PortfolioRepository.cs" />
     <Compile Include="Components\PriceOptions\PriceOptionsController.cs" />
     <Compile Include="Components\PriceOptions\PriceOptionsModel.cs" />
     <Compile Include="Components\RelatedProjects\RelatedProjectsController.cs" />
@@ -242,6 +240,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Components\Portfolio Listing Multi Column.cshtml" />
     <None Include="web.config" />
     <Content Include="Views\Web.config" />
     <Content Include="web.Debug.config">
@@ -251,7 +250,9 @@
       <DependentUpon>web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Components\PortfolioItem\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
