@@ -1,0 +1,14 @@
+﻿---
+ID: "f01c8adc-77e8-4190-a6c3-d1de27f1e842"
+Parent: "7fb20bb5-d4a1-4321-9938-230d0f9c0cd7"
+Template: "10560a8f-6d9d-4421-b439-52c839d323fb"
+Path: /sitecore/content/Sym2018/Site Shared Data/Team Member Items/Team Member 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T133145Z

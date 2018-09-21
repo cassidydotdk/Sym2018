@@ -1,0 +1,25 @@
+﻿---
+ID: "02d886e8-8490-4421-b49a-a152f46ba267"
+Parent: "32e8854b-ac8d-4ed3-b265-63a744600c59"
+Template: "d26e2922-a98e-4a1f-a870-d4c7b2fb67f1"
+Path: /sitecore/content/Sym2018/Site Shared Data/Teams/Team B
+DB: master
+SharedFields:
+- ID: "caf97c58-31f4-49cb-a30b-6a313f12990a"
+  Hint: Team Members
+  Type: Multilist
+  Value: |
+    {A98AD5EA-48F1-4FC1-BE0D-D47A821581F4}
+    {7A06B071-EC0C-4A28-A787-C39D977D06B2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T133229Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

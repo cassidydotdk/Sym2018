@@ -1,0 +1,31 @@
+﻿---
+ID: "a4967b76-13fe-4fb3-a57b-baeca3bbde4a"
+Parent: "10560a8f-6d9d-4421-b439-52c839d323fb"
+Template: "10560a8f-6d9d-4421-b439-52c839d323fb"
+Path: /sitecore/templates/Project/Components/Team Member/__Standard Values
+DB: master
+SharedFields:
+- ID: "0b3f3450-0de6-4237-ada6-9225c950bc88"
+  Hint: Team Member Name
+  Value: Team Member
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12194bec-516d-4ad8-92c1-beb79b3f2344"
+      Hint: Team Member Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T132009Z
+    - ID: "5994e1be-e4c1-4949-949c-84629170a70b"
+      Hint: Team Member Position
+      Value: Position
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d5a1b88a-8337-4c67-9608-1fc63901ee2b"
+      Hint: Team Member Email
+      Value: name@example.com

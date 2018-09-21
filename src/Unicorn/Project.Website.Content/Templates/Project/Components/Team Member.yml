@@ -1,20 +1,20 @@
 ﻿---
-ID: "80a8e42f-4329-45c3-a7d0-37dc78b68423"
+ID: "10560a8f-6d9d-4421-b439-52c839d323fb"
 Parent: "d119b0bb-b1da-4c22-ad1e-87c4059a83c9"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Components/Team Members
+Path: /sitecore/templates/Project/Components/Team Member
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/32x32/photo_portrait.png
+  Value: People/32x32/athlete.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{781214B0-3E9B-4A30-A612-4C3F00FAB06C}"
+  Value: "{A4967B76-13FE-4FB3-A57B-BAECA3BBDE4A}"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180916T125656Z
+      Value: 20180921T131407Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

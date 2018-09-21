@@ -234,6 +234,7 @@
     <Compile Include="Components\RelatedProjects\RelatedProjectsModel.cs" />
     <Compile Include="Components\Sidebar\SidebarController.cs" />
     <Compile Include="Components\Sidebar\SidebarModel.cs" />
+    <Compile Include="Components\TeamMembers\TeamMemberModel.cs" />
     <Compile Include="Components\TeamMembers\TeamMembersController.cs" />
     <Compile Include="Components\TeamMembers\TeamMembersModel.cs" />
     <Compile Include="Components\TopNavigation\TopNavigationController.cs" />
