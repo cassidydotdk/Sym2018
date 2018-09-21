@@ -5,7 +5,7 @@ namespace Project.Website.Components.Portfolio
 {
 	public class PortfolioListingController : ComponentController
 	{
-		private readonly PortfolioRepository _portfolioRepository;
+		protected readonly PortfolioRepository _portfolioRepository;
 
 		public PortfolioListingController()
 		{
@@ -22,6 +22,7 @@ namespace Project.Website.Components.Portfolio
 			return Index("Portfolio Listing Multi Column", "col-lg-6 portfolio-item", 700, 400);
 		}
 
+		// "col-lg-4 col-sm-6 portfolio-item"
 		public virtual ActionResult ThreeColumn()
 		{
 			return Index("Portfolio Listing Multi Column", "col-lg-4 col-sm-6 portfolio-item", 700, 400);

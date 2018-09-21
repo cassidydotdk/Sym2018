@@ -1,0 +1,29 @@
+﻿---
+ID: "66e667bc-1a99-4c2e-8925-146ac4d980cc"
+Parent: "f2103489-0499-40a4-b978-ba15b4900cbf"
+Template: "f2103489-0499-40a4-b978-ba15b4900cbf"
+Path: /sitecore/templates/Project/Components/Portfolio Section/__Standard Values
+DB: master
+SharedFields:
+- ID: "94117c41-a65c-4880-9331-d57f60793e43"
+  Hint: Portfolio Section Items
+  Type: Multilist
+  Value: |
+    {D2ADB975-3A26-4339-BBC3-C7578013A8D4}
+    {F8B4279A-F496-4938-8C87-41A36E7E4327}
+    {C8D7C391-8793-4063-8367-CD649ADBF43F}
+    {BD03FC05-B0B4-49BB-99EE-3709B257462A}
+    {DFA36195-7309-4034-8D36-24D46689A73A}
+    {4B6B7486-CB32-414C-9909-8D7FBBF1618A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T151931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

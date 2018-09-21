@@ -221,8 +221,7 @@
     <Compile Include="Components\OurCustomers\OurCustomersModel.cs" />
     <Compile Include="Components\Portfolio\PortfolioItemController.cs" />
     <Compile Include="Components\Portfolio\PortfolioItemModel.cs" />
-    <Compile Include="Components\PortfolioSection\PortfolioSectionController.cs" />
-    <Compile Include="Components\PortfolioSection\PortfolioSectionModel.cs" />
+    <Compile Include="Components\Portfolio\PortfolioSectionController.cs" />
     <Compile Include="Components\Portfolio\PortfolioListingController.cs" />
     <Compile Include="Components\Portfolio\PortfolioListingModel.cs" />
     <Compile Include="Components\Portfolio\PortfolioRepository.cs" />
@@ -250,9 +249,7 @@
       <DependentUpon>web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Components\PortfolioItem\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

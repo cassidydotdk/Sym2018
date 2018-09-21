@@ -42,5 +42,21 @@ namespace Project.Website.Components.Portfolio
 
 			return repositoryItems.Skip(page * pageSize).Take(pageSize);
 		}
+
+		public IEnumerable<PortfolioItemModel> GetSelectedPortfolioItems(Item actionItem, int imageWidth, int imageHeight)
+		{
+			var repositoryItems = new List<PortfolioItemModel>();
+
+			MultilistField selectedItems = actionItem.Fields["Portfolio Section Items"];
+			if (selectedItems?.TargetIDs.Length > 0)
+			{
+				foreach (Item repositoryItem in selectedItems.GetItems())
+				{
+					repositoryItems.Add(GetPortfolioItemModel(repositoryItem, imageWidth, imageHeight));
+				}
+			}
+
+			return repositoryItems;
+		}
 	}
 }
