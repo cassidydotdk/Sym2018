@@ -14,7 +14,7 @@
 ---- Our Customers
 ---- Contact Details (with map)
 ---- Contact Form	(this form requires some additional javascript at the bottom of the html)
----- Accordion (for FAQ etc)
+----- Accordion (for FAQ etc)
 Rich Text (sits at container level)
 ---- Full Width Portfolio Listing
 ---- 2 Column Portfolio Listing

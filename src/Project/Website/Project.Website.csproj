@@ -217,6 +217,7 @@
     <Compile Include="Components\IntroContent\IntroContentModel.cs" />
     <Compile Include="Components\Jumbotron\JumbotronController.cs" />
     <Compile Include="Components\Jumbotron\JumbotronModel.cs" />
+    <Compile Include="Components\Marketing Icons\MarketingIconModel.cs" />
     <Compile Include="Components\Marketing Icons\MarketingIconsController.cs" />
     <Compile Include="Components\Marketing Icons\MarketingIconsModel.cs" />
     <Compile Include="Components\OurCustomers\OurCustomersController.cs" />

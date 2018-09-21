@@ -1,0 +1,14 @@
+﻿---
+ID: "76e8e362-6cae-4f9b-b564-f329b993bde8"
+Parent: "b3ff7466-cfe8-4987-bb67-6ead6869b2c9"
+Template: "08eb63a0-8ad7-4f5a-a40d-9b0ce1881ac7"
+Path: /sitecore/templates/Branches/Project/Components/Marketing Icons/$name/Marketing Icon 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180921T125005Z
