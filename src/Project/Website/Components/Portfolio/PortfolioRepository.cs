@@ -43,11 +43,16 @@ namespace Project.Website.Components.Portfolio
 			return repositoryItems.Skip(page * pageSize).Take(pageSize);
 		}
 
-		public IEnumerable<PortfolioItemModel> GetSelectedPortfolioItems(Item actionItem, int imageWidth, int imageHeight)
+		public IEnumerable<PortfolioItemModel> GetRelatedProjects(Item actionItem, int imageWidth, int imageHeight)
+		{
+			return GetPortfolioItemsFromMultilist(actionItem.Fields["Portfolio Item Related Projects"], imageWidth, imageHeight);
+		}
+
+		public IEnumerable<PortfolioItemModel> GetPortfolioItemsFromMultilist(MultilistField listField, int imageWidth, int imageHeight)
 		{
 			var repositoryItems = new List<PortfolioItemModel>();
 
-			MultilistField selectedItems = actionItem.Fields["Portfolio Section Items"];
+			MultilistField selectedItems = listField;
 			if (selectedItems?.TargetIDs.Length > 0)
 			{
 				foreach (Item repositoryItem in selectedItems.GetItems())

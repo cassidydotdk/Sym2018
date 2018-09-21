@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System.Linq;
+using System.Web.Mvc;
+using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 
 namespace Project.Website.Components.Portfolio
@@ -48,11 +50,18 @@ namespace Project.Website.Components.Portfolio
 
 		protected virtual PortfolioListingModel GetModel(Item actionItem, int imageWidth, int imageHeight)
 		{
-			return new PortfolioListingModel
+			var model = new PortfolioListingModel
 			{
 				PortfolioListingItemModels = _portfolioRepository.GetPortfolioItems(actionItem, imageWidth, imageHeight, 0, 5),
 				ViewProjectText = actionItem["Portfolio Listing View Project Text"]
 			};
+
+			if (model.PortfolioListingItemModels.Any())
+			{
+				model.PortfolioListingItemModels.Last().IsLast = true;
+			}
+
+			return model;
 		}
 	}
 }
