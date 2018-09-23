@@ -1,0 +1,40 @@
+﻿---
+ID: "f645e7f5-54c9-401b-afeb-e2582f5f6f7d"
+Parent: "257cd253-8d69-4372-a66a-99f17be55941"
+Template: "257cd253-8d69-4372-a66a-99f17be55941"
+Path: /sitecore/templates/Project/Components/Price Option/__Standard Values
+DB: master
+SharedFields:
+- ID: "cc3f6584-2723-4118-8e23-c7dfbe5e3e99"
+  Hint: Price Option Price
+  Value: $19.99
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15aae4e9-4787-4be2-8753-f926d4efe782"
+      Hint: Price Option Heading
+      Value: Basic
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T122256Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68b92629-2438-42aa-8d02-5d2718ea2b32"
+      Hint: Price Option Bullet 3
+      Value: Vestibulum at eros
+    - ID: "6a07579d-11b4-4eea-a812-2d30c3224c72"
+      Hint: Price Option Sign Up Text
+      Value: "Sign Up!"
+    - ID: "9c34da54-8091-4cf2-8e41-49a50130b19b"
+      Hint: Price Option Byline
+      Value: per month
+    - ID: "c09e0f5a-cfde-4506-a568-61d137e585d8"
+      Hint: Price Option Bullet 2
+      Value: Dapibus ac facilisis in
+    - ID: "cd398804-67cc-45bb-914a-9fd20905f5d8"
+      Hint: Price Option Bullet 1
+      Value: Cras justo odio

@@ -27,7 +27,7 @@ namespace Project.Website.Components.CallToAction
 			};
 
 			LinkField lf = actionItem.Fields["Call to Action Link"];
-			if(lf != null && !string.IsNullOrEmpty(lf.GetFriendlyUrl()))
+			if(!string.IsNullOrEmpty(lf?.GetFriendlyUrl()))
 			{
 				model.ButtonUrl = lf.GetFriendlyUrl();
 			}

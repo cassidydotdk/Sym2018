@@ -47,7 +47,7 @@ namespace Project.Website.Components.Marketing_Icons
 			};
 
 			LinkField lf = marketingIconItem.Fields["Marketing Icon Link"];
-			if (lf != null && !string.IsNullOrEmpty(lf.GetFriendlyUrl()))
+			if (!string.IsNullOrEmpty(lf?.GetFriendlyUrl()))
 			{
 				m.TargetUrl = lf.GetFriendlyUrl();
 			}

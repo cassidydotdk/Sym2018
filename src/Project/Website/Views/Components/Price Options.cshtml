@@ -6,56 +6,31 @@
 
 <!-- Price Options -->
 <div class="row">
-    <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-            <h3 class="card-header">Basic</h3>
-            <div class="card-body">
-                <div class="display-4">$19.99</div>
-                <div class="font-italic">per month</div>
+    @foreach (var priceOption in Model.PriceOptions)
+    {
+        string primary = string.Empty;
+        if (priceOption.IsPrimary)
+        {
+            primary = "card-outline-primary";
+        }
+
+        <div class="col-lg-4 mb-4">
+            <div class="card @primary h-100">
+                <h3 class="card-header">@priceOption.Heading</h3>
+                <div class="card-body">
+                    <div class="display-4">@priceOption.Price</div>
+                    <div class="font-italic">@priceOption.Byline</div>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">@priceOption.Bullet1</li>
+                    <li class="list-group-item">@priceOption.Bullet2</li>
+                    <li class="list-group-item">@priceOption.Bullet3</li>
+                    <li class="list-group-item">
+                        <a href="@priceOption.SignUpUrl" class="btn btn-primary">@priceOption.SignUpText</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-                <li class="list-group-item">
-                    <a href="#" class="btn btn-primary">Sign Up!</a>
-                </li>
-            </ul>
         </div>
-    </div>
-    <div class="col-lg-4 mb-4">
-        <div class="card card-outline-primary h-100">
-            <h3 class="card-header bg-primary text-white">Plus</h3>
-            <div class="card-body">
-                <div class="display-4">$39.99</div>
-                <div class="font-italic">per month</div>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-                <li class="list-group-item">
-                    <a href="#" class="btn btn-primary">Sign Up!</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-            <h3 class="card-header">Ultra</h3>
-            <div class="card-body">
-                <div class="display-4">$159.99</div>
-                <div class="font-italic">per month</div>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-                <li class="list-group-item">
-                    <a href="#" class="btn btn-primary">Sign Up!</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    }
 </div>
 <!-- /.row -->

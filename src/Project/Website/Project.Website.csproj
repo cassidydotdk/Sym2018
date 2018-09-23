@@ -227,6 +227,7 @@
     <Compile Include="Components\Portfolio\PortfolioListingController.cs" />
     <Compile Include="Components\Portfolio\PortfolioListingModel.cs" />
     <Compile Include="Components\Portfolio\PortfolioRepository.cs" />
+    <Compile Include="Components\PriceOptions\PriceOptionModel.cs" />
     <Compile Include="Components\PriceOptions\PriceOptionsController.cs" />
     <Compile Include="Components\PriceOptions\PriceOptionsModel.cs" />
     <Compile Include="Components\RelatedProjects\RelatedProjectsController.cs" />

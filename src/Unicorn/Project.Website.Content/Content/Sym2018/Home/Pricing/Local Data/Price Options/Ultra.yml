@@ -1,0 +1,21 @@
+﻿---
+ID: "85baa8c1-5b55-4104-a584-f3b9304b9786"
+Parent: "42daa648-c7ae-4356-8fc1-6aba30c8f299"
+Template: "257cd253-8d69-4372-a66a-99f17be55941"
+Path: /sitecore/content/Sym2018/Home/Pricing/Local Data/Price Options/Ultra
+DB: master
+SharedFields:
+- ID: "cc3f6584-2723-4118-8e23-c7dfbe5e3e99"
+  Hint: Price Option Price
+  Value: $159.99
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15aae4e9-4787-4be2-8753-f926d4efe782"
+      Hint: Price Option Heading
+      Value: Ultra
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T122403Z

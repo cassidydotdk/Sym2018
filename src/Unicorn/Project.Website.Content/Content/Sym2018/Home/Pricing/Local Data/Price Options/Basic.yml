@@ -1,0 +1,14 @@
+﻿---
+ID: "aa50de3b-c6dd-446a-a5db-4434e4bd64f6"
+Parent: "42daa648-c7ae-4356-8fc1-6aba30c8f299"
+Template: "257cd253-8d69-4372-a66a-99f17be55941"
+Path: /sitecore/content/Sym2018/Home/Pricing/Local Data/Price Options/Basic
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T122347Z

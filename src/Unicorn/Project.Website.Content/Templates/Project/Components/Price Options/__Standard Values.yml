@@ -1,0 +1,23 @@
+﻿---
+ID: "41a2ffd3-efa3-4322-a5bf-20af36184bd8"
+Parent: "f87a0d0e-4925-4b3d-b47e-9a8c5757e084"
+Template: "f87a0d0e-4925-4b3d-b47e-9a8c5757e084"
+Path: /sitecore/templates/Project/Components/Price Options/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{257CD253-8D69-4372-A66A-99F17BE55941}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T122232Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

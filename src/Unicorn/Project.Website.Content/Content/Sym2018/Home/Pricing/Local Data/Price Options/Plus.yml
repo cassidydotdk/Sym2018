@@ -1,0 +1,25 @@
+﻿---
+ID: "131c20c0-adca-4a76-add7-fac294cde8f4"
+Parent: "42daa648-c7ae-4356-8fc1-6aba30c8f299"
+Template: "257cd253-8d69-4372-a66a-99f17be55941"
+Path: /sitecore/content/Sym2018/Home/Pricing/Local Data/Price Options/Plus
+DB: master
+SharedFields:
+- ID: "a3a55aba-0115-42cb-a1e0-5afbc2f4156f"
+  Hint: Price Option Is Primary
+  Type: Checkbox
+  Value: 1
+- ID: "cc3f6584-2723-4118-8e23-c7dfbe5e3e99"
+  Hint: Price Option Price
+  Value: $39.99
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15aae4e9-4787-4be2-8753-f926d4efe782"
+      Hint: Price Option Heading
+      Value: Plus
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T122356Z
