@@ -219,6 +219,7 @@
     <Compile Include="Components\Marketing Icons\MarketingIconModel.cs" />
     <Compile Include="Components\Marketing Icons\MarketingIconsController.cs" />
     <Compile Include="Components\Marketing Icons\MarketingIconsModel.cs" />
+    <Compile Include="Components\OurCustomers\CustomerModel.cs" />
     <Compile Include="Components\OurCustomers\OurCustomersController.cs" />
     <Compile Include="Components\OurCustomers\OurCustomersModel.cs" />
     <Compile Include="Components\Portfolio\PortfolioItemController.cs" />

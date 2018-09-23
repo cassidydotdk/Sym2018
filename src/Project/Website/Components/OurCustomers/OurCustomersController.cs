@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
 using Sitecore.Data.Items;
 
 namespace Project.Website.Components.OurCustomers
@@ -19,7 +20,28 @@ namespace Project.Website.Components.OurCustomers
 
 		protected virtual OurCustomersModel GetModel(Item actionItem)
 		{
-			return new OurCustomersModel();
+			// http://placehold.it/500x300
+
+			var customers = new List<CustomerModel>();
+			for (int i = 0; i < 6; i++)
+			{
+				var m = new CustomerModel();
+
+				// Since there is no Customer IA, I'll just pass null to get placeholder images back
+				var imageUrl = GetImageUrlAndAlt(null, 500, 300);
+
+				m.ImageUrl = imageUrl.Item1;
+				m.ImageAlt = imageUrl.Item2;
+
+				customers.Add(m);
+			}
+
+			var model = new OurCustomersModel
+			{
+				Customers = customers.ToArray(),
+			};
+
+			return model;
 		}
 	}
 }

@@ -6,23 +6,11 @@
 
 <!-- Our Customers -->
 <div class="row">
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
-    <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-    </div>
+    @foreach (var customer in Model.Customers)
+    {
+        <div class="col-lg-2 col-sm-4 mb-4">
+            <img class="img-fluid" src="@customer.ImageUrl" alt="@customer.ImageAlt">
+        </div>
+    }
 </div>
 <!-- /.row -->
