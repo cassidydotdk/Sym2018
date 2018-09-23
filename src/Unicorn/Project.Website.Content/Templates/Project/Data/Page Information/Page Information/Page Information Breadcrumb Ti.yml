@@ -1,0 +1,21 @@
+﻿---
+ID: "db06540c-d112-4f2b-9a49-3aa133a8da8a"
+Parent: "a68f1c11-c1e0-45c3-b9b5-9026c70128ae"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Data/Page Information/Page Information/Page Information Breadcrumb Title
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T113324Z

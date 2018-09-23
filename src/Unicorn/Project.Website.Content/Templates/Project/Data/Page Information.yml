@@ -1,22 +1,17 @@
 ﻿---
-ID: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
-Parent: "f0254b87-100d-4d12-9072-abef8218dab6"
+ID: "1a1dbaa8-4e4e-40e7-84b2-8d91d87b9716"
+Parent: "2b389fad-b48a-4167-bf45-4167a69694a0"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Site Root
+Path: /sitecore/templates/Project/Data/Page Information
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Other/32x32/at.png
+  Value: Applications/32x32/printer3_edit.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {1A1DBAA8-4E4E-40E7-84B2-8D91D87B9716}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{B3C626F1-4E6F-47E2-AE86-C047B9EC19BC}"
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180821T193019Z
+      Value: 20180923T113212Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

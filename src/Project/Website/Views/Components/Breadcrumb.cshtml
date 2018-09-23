@@ -6,8 +6,17 @@
 
 <!-- Breadcrumb -->
 <ol class="breadcrumb">
-    <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
-    </li>
-    <li class="breadcrumb-item active">About</li>
+    @foreach (var breadcrumb in Model.Breadcrumbs)
+    {
+        if (!breadcrumb.IsActive)
+        {
+            <li class="breadcrumb-item">
+                <a href="@breadcrumb.Url">@breadcrumb.Title</a>
+            </li>
+        }
+        else
+        {
+            <li class="breadcrumb-item active">@breadcrumb.Title</li>
+        }
+    }
 </ol>

@@ -1,0 +1,26 @@
+﻿---
+ID: "a68f1c11-c1e0-45c3-b9b5-9026c70128ae"
+Parent: "1a1dbaa8-4e4e-40e7-84b2-8d91d87b9716"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Data/Page Information/Page Information
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/printer3_edit.png
+- ID: "e2e2b75d-a2f7-4075-bde2-d13306e9e350"
+  Hint: Collapsed by Default
+  Type: checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T113247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
