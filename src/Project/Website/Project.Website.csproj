@@ -204,6 +204,7 @@
     <Compile Include="Components\Features\FeaturesModel.cs" />
     <Compile Include="Components\Footer\FooterController.cs" />
     <Compile Include="Components\Footer\FooterModel.cs" />
+    <Compile Include="Components\Header\CarouselSlide.cs" />
     <Compile Include="Components\Header\HeaderController.cs" />
     <Compile Include="Components\Header\HeaderModel.cs" />
     <Compile Include="Components\HeadlineWithSubheading\HeadlineWithSubheadingController.cs" />

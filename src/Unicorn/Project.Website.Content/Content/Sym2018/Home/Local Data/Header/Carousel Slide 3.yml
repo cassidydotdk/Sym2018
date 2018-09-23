@@ -1,0 +1,24 @@
+﻿---
+ID: "85a2c148-976a-404d-be98-fe470bef19b4"
+Parent: "3dae908b-7d49-4bfe-9281-fc63cdebe9ef"
+Template: "c294329d-9ba6-47d1-87ab-0269b770f2fe"
+Path: /sitecore/content/Sym2018/Home/Local Data/Header/Carousel Slide 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T102309Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8e4503cd-08c0-4c4e-86ea-27f91b1706ea"
+      Hint: Carousel Slide Heading
+      Value: Carousel Slide Heading 3
+    - ID: "bc85a368-c8a6-41ee-bd21-f8fad82ed6ca"
+      Hint: Carousel Slide Description
+      Value: Carousel Slide Description 3

@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
 using Sitecore.Data.Items;
 
 namespace Project.Website.Components.Header
@@ -19,7 +20,27 @@ namespace Project.Website.Components.Header
 
 		protected virtual HeaderModel GetModel(Item actionItem)
 		{
-			return new HeaderModel();
+			var carouselSlides = new List<CarouselSlideModel>();
+
+			foreach (Item carouselSlideItem in actionItem.GetChildren())
+			{
+				var m = new CarouselSlideModel
+				{
+					Heading = carouselSlideItem["Carousel Slide Heading"],
+					Description = carouselSlideItem["Carousel Slide Description"],
+				};
+
+				var imageUrls = GetImageUrlAndAlt(actionItem.Fields["Carousel Slide Image"], 1900, 1080);
+				m.ImageUrl = imageUrls.Item1;
+				carouselSlides.Add(m);
+			}
+
+			var model = new HeaderModel
+			{
+				CarouselSlides = carouselSlides.ToArray(),
+			};
+
+			return model;
 		}
 	}
 }
