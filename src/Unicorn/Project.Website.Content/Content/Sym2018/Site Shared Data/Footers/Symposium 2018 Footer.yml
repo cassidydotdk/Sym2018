@@ -1,0 +1,14 @@
+﻿---
+ID: "fce70c2c-0238-445c-9d90-93442b54c7b6"
+Parent: "c87641f3-fdab-4afa-8dd8-d4824168fd63"
+Template: "5f40d8fd-9192-44b7-89f4-1a3dd562c9ab"
+Path: /sitecore/content/Sym2018/Site Shared Data/Footers/Symposium 2018 Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T133320Z

@@ -9,14 +9,16 @@
     @foreach (var priceOption in Model.PriceOptions)
     {
         string primary = string.Empty;
+        string header = string.Empty;
         if (priceOption.IsPrimary)
         {
             primary = "card-outline-primary";
+            header = "bg-primary text-white";
         }
 
         <div class="col-lg-4 mb-4">
             <div class="card @primary h-100">
-                <h3 class="card-header">@priceOption.Heading</h3>
+                <h3 class="card-header @header">@priceOption.Heading</h3>
                 <div class="card-body">
                     <div class="display-4">@priceOption.Price</div>
                     <div class="font-italic">@priceOption.Byline</div>

@@ -1,0 +1,14 @@
+﻿---
+ID: "3164fd88-3fae-46ee-9232-eb8491dd78db"
+Parent: "28f8a1a3-4d42-4050-94c0-16e973df018b"
+Template: "08eb63a0-8ad7-4f5a-a40d-9b0ce1881ac7"
+Path: /sitecore/content/Sym2018/Home/Services/Local Data/Marketing Icons/Marketing Icon 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T135020Z

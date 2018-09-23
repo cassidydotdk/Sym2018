@@ -1,0 +1,17 @@
+﻿---
+ID: "341ece66-5665-4ca8-aca1-df6c3b60870f"
+Parent: "28f8a1a3-4d42-4050-94c0-16e973df018b"
+Template: "08eb63a0-8ad7-4f5a-a40d-9b0ce1881ac7"
+Path: /sitecore/content/Sym2018/Home/Services/Local Data/Marketing Icons/Marketing Icon 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T135016Z
+    - ID: "b0ab314e-6e7c-4377-8cca-a0a524fdb2ce"
+      Hint: Marketing Icon Text
+      Value: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.

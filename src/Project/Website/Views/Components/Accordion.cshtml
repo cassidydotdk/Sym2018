@@ -10,19 +10,29 @@
         int i = 0;
         foreach (var accordionItem in Model.AccordionItems)
         {
-            string collapsedClass = "";
+            string literal = Model.numericLiterals[i];
+            string hashCollapse = "#collapse" + literal;
+            string controls = "collapse" + literal;
+            string id = controls;
+            string heading = "heading" + literal;
+
+            string collapsed = "";
+            string expanded = "true";
+            string show = "show";
             if (accordionItem.Collapsed)
             {
-                collapsedClass = "class = \"collapsed\"";
+                collapsed = "collapsed";
+                expanded = "false";
+                show = "";
             }
 
             <div class="card">
-                <div class="card-header" role="tab" id="heading@i">
+                <div class="card-header" role="tab" id="@heading">
                     <h5 class="mb-0">
-                        <a @collapsedClass data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">@accordionItem.Title</a>
+                        <a class="@collapsed" data-toggle="collapse" data-parent="#accordion" href="@hashCollapse" aria-expanded="@expanded" aria-controls="@controls">@accordionItem.Title</a>
                     </h5>
                 </div>
-                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="heading@i">
+                <div id="@id" class="collapse @show" role="tabpanel" aria-labelledby="@heading">
                     <div class="card-body">
                         @accordionItem.Text
                     </div>

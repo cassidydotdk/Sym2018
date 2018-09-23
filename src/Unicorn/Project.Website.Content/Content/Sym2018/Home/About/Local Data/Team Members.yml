@@ -4,6 +4,14 @@ Parent: "149c4a86-63cd-4ca8-82a9-f1f43b65f9fb"
 Template: "80a8e42f-4329-45c3-a7d0-37dc78b68423"
 Path: /sitecore/content/Sym2018/Home/About/Local Data/Team Members
 DB: master
+SharedFields:
+- ID: "78e5cd34-6e4b-4f1a-ac8b-d82e498e9536"
+  Hint: Team Members Individual Members
+  Type: Multilist
+  Value: |
+    {F01C8ADC-77E8-4190-A6C3-D1DE27F1E842}
+    {A98AD5EA-48F1-4FC1-BE0D-D47A821581F4}
+    {7A06B071-EC0C-4A28-A787-C39D977D06B2}
 Languages:
 - Language: en
   Versions:

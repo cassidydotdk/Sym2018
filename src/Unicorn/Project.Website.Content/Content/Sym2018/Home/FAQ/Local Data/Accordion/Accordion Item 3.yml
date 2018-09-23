@@ -1,0 +1,17 @@
+﻿---
+ID: "cd779032-b349-4bc3-a1e9-3ea50d8abae9"
+Parent: "b33cd7e5-6ad0-42ff-a838-9bd170b54467"
+Template: "5e49eafc-77cb-4e65-ab51-37ec7814f144"
+Path: /sitecore/content/Sym2018/Home/FAQ/Local Data/Accordion/Accordion Item 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T140446Z
+    - ID: "5d96ece2-e4a4-4ae2-a2de-3cf0da444b53"
+      Hint: Accordion Item Headline
+      Value: Collapsible Group Item #3

@@ -41,12 +41,14 @@ namespace Project.Website.Components.Accordion
 
 			if (accordionItems.Any())
 			{
+				accordionItems.ForEach(a => a.Collapsed = true);
 				accordionItems.First().Collapsed = false;
 			}
 
 			var model = new AccordionModel
 			{
-				AccordionItems = accordionItems,
+				// numericLiterals only support up to 10. Expand as needed. Yes. Don't ask. 
+				AccordionItems = accordionItems.Take(10),
 			};
 
 			return model;

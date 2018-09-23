@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web;
+using System.Web.Mvc;
 using Sitecore.Data.Items;
 
 namespace Project.Website.Components.Footer
@@ -21,7 +23,7 @@ namespace Project.Website.Components.Footer
 		{
 			return new FooterModel
 			{
-				Text = actionItem["Footer Text"],
+				Text = new HtmlString(actionItem["Footer Text"]),
 			};
 		}
 	}

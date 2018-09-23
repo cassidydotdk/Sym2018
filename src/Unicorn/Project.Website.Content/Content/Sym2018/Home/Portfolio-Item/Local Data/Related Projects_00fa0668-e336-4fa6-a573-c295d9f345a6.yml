@@ -5,6 +5,14 @@ Template: "77205975-c758-4e9a-a54b-cceaea665657"
 Path: "/sitecore/content/Sym2018/Home/Portfolio-Item/Local Data/Related Projects"
 DB: master
 SharedFields:
+- ID: "9a93c69f-5d53-4502-8786-56983c1b3ed7"
+  Hint: Related Projects
+  Type: Multilist
+  Value: |
+    {D2ADB975-3A26-4339-BBC3-C7578013A8D4}
+    {BABCC15E-F7A6-408F-9357-568C4FDED84E}
+    {BD03FC05-B0B4-49BB-99EE-3709B257462A}
+    {D36F59C6-9F69-4B46-A497-C530CD5F47CC}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 400

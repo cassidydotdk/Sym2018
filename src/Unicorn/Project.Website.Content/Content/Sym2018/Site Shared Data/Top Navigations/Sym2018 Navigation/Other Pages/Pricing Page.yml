@@ -1,13 +1,13 @@
 ﻿---
-ID: "902c7b26-4578-4640-9769-50d9e615fe65"
+ID: "879c8f96-beb4-4907-b699-cd038f948922"
 Parent: "195b3d6e-1d7b-4024-9fb3-e69ee6f65ed4"
 Template: "a5b3fc10-225d-494e-b95f-ceb873475be8"
-Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation/Other Pages/FAQ
+Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation/Other Pages/Pricing Page
 DB: master
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -15,11 +15,11 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180923T105835Z
+      Value: 20180923T143507Z
     - ID: "abc46af4-6a62-420a-9199-484f9c7f1644"
       Hint: Navigation Item Title
-      Value: FAQ
+      Value: Pricing Page
     - ID: "ecad425e-c9f7-400d-b91c-6ca223e036cf"
       Hint: Navigation Item Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{5D6B0025-7B44-4449-BDC3-55FF77981E28}" />
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{27554CBA-BCB0-412A-98CC-7DC055876DD6}" />

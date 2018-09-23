@@ -7,6 +7,6 @@ namespace Project.Website.Components.Footer
 {
 	public class FooterModel : ComponentModel
 	{
-		public string Text { get; set; }
+		public HtmlString Text { get; set; }
 	}
 }

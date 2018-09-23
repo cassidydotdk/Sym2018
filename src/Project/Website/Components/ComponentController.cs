@@ -28,6 +28,10 @@ namespace Project.Website.Components
 			// Fall back to context item
 			return Sitecore.Context.Item;
 		}
+		protected virtual Item GetSiteRoot(Item contextItem)
+		{
+			return contextItem.Database.GetItem(Sitecore.Context.Site.StartPath);
+		}
 
 		protected virtual ActionResult DatasourceMissingResult()
 		{

@@ -66,9 +66,9 @@ namespace Project.Website.Components.TeamMembers
 				ImageUrl = imageUrl.Item1,
 				ImageAlt = imageUrl.Item2,
 				Name = teamMemberItem["Team Member Name"],
-				Position = teamMemberItem["Position"],
+				Position = teamMemberItem["Team Member Position"],
 				Description = RenderField(teamMemberItem, "Team Member Description"),
-				Email = teamMemberItem["Email"],
+				Email = teamMemberItem["Team Member Email"],
 			};
 		}
 	}

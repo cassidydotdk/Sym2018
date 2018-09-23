@@ -15,7 +15,7 @@ namespace Project.Website.Components.Breadcrumb
 			// For a breadcrumb trail, this just doesn't make sense
 
 			var actionItem = Sitecore.Context.Item;
-			var siteRoot = actionItem.Database.GetItem($"{Sitecore.Context.Site.StartPath}{Sitecore.Context.Site.StartItem}");
+			var siteRoot = GetSiteRoot(Sitecore.Context.Item);
 
 			if (actionItem != null && actionItem.Versions.Count > 0)
 			{

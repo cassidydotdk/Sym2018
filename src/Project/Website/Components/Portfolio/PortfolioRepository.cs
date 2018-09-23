@@ -14,7 +14,8 @@ namespace Project.Website.Components.Portfolio
 			{
 				Title = portfolioItem["Portfolio Item Title"],
 				ShortDescription = RenderField(portfolioItem, "Portfolio Item Short Description"),
-				Text = RenderField(portfolioItem, "Portfolio Item Text")
+				Text = RenderField(portfolioItem, "Portfolio Item Text"),
+				PortfolioItemUrl = "#",
 			};
 
 			var imageUrl = GetImageUrlAndAlt(portfolioItem.Fields["Portfolio Item Image"], imageWidth, imageHeight);

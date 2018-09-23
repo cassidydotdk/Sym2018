@@ -5,8 +5,17 @@ using Sitecore.Data.Items;
 
 namespace Project.Website.Components.RelatedProjects
 {
-	public class RelatedProjectsController : PortfolioListingController
+	public class RelatedProjectsController : ComponentController
 	{
+		private readonly PortfolioRepository _portfolioRepository;
+
+		public RelatedProjectsController() : this(new PortfolioRepository()) { }
+
+		public RelatedProjectsController(PortfolioRepository portfolioRepository)
+		{
+			_portfolioRepository = portfolioRepository;
+		}
+
 		public virtual ActionResult Index()
 		{
 			var actionItem = GetActionItem();
