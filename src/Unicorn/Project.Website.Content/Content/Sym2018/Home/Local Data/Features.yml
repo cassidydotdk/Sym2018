@@ -20,3 +20,19 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "75fd0ce3-d32b-4f0e-bf5e-a4c41d2feea5"
+      Hint: Features Text
+      Value: |
+                <h2>Modern Business Features</h2>
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li>
+                        <strong>Bootstrap v4</strong>
+                    </li>
+                    <li>jQuery</li>
+                    <li>Font Awesome</li>
+                    <li>Working contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        

@@ -4,6 +4,10 @@ Parent: "42daa648-c7ae-4356-8fc1-6aba30c8f299"
 Template: "257cd253-8d69-4372-a66a-99f17be55941"
 Path: /sitecore/content/Sym2018/Home/Pricing/Local Data/Price Options/Basic
 DB: master
+SharedFields:
+- ID: "cc3f6584-2723-4118-8e23-c7dfbe5e3e99"
+  Hint: Price Option Price
+  Value: $19.99
 Languages:
 - Language: en
   Versions:

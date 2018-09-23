@@ -12,3 +12,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180923T133320Z
+    - ID: "49d1fc78-e8b9-4316-955b-8469bab2eb9e"
+      Hint: Footer Text
+      Value: "Copyright &copy; Cassidy Consult 2018 - Symposium 2018 Presentation, Orlando, FL"

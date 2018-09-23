@@ -53,7 +53,8 @@ namespace Project.Website.Components.Portfolio
 			var model = new PortfolioListingModel
 			{
 				PortfolioListingItemModels = _portfolioRepository.GetPortfolioItems(actionItem, imageWidth, imageHeight, 0, 5),
-				ViewProjectText = actionItem["Portfolio Listing View Project Text"]
+				ViewProjectText = actionItem["Portfolio Listing View Project Text"],
+				ShowPagination = actionItem["Portfolio Listing Show Pagination"] == "1",
 			};
 
 			if (model.PortfolioListingItemModels.Any())

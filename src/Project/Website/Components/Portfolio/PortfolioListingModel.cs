@@ -7,5 +7,6 @@ namespace Project.Website.Components.Portfolio
 		public IEnumerable<PortfolioItemModel> PortfolioListingItemModels { get; set; }
 		public string ViewProjectText { get; set; }
 		public string ItemClass { get; set; }
+		public bool ShowPagination { get; set; }
 	}
 }

@@ -5,6 +5,12 @@ Template: "f4168c1e-1164-49a8-96ce-96e06a4ac2dc"
 Path: /sitecore/content/Sym2018/Home
 DB: master
 SharedFields:
+- ID: "771594a2-412d-40d2-b955-5a8273e23538"
+  Hint: Site Root Global Footer
+  Value: "{FCE70C2C-0238-445C-9D90-93442B54C7B6}"
+- ID: "beb53485-4a5a-4165-bfa0-7d2574b71f0e"
+  Hint: Site Root Global Navigation
+  Value: "{6DFA49EE-464A-4296-8213-692AE41A9F83}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -15,7 +21,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
           uid="{CA4D5512-5E3D-45E8-9652-0222BC3A93B8}"
-          s:ds="{6DFA49EE-464A-4296-8213-692AE41A9F83}"
+          s:ds=""
           s:par="" />
         <r
           uid="{C25521AA-ED99-46D6-AAE4-A858390ED25D}"
@@ -27,7 +33,7 @@ SharedFields:
         <r
           uid="{0BD4D07F-8AFB-48E2-BB47-88DC84B987AB}"
           p:after="r[@uid='{C25521AA-ED99-46D6-AAE4-A858390ED25D}']"
-          s:ds="{FCE70C2C-0238-445C-9D90-93442B54C7B6}"
+          s:ds=""
           s:par="" />
         <r
           uid="{43CECC56-6A92-44F0-8A7F-CE84E54CB8C9}"
