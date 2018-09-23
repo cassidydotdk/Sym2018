@@ -1,0 +1,21 @@
+﻿---
+ID: "1ebfd6d6-515f-454a-a453-fd52a599a614"
+Parent: "2dadb223-1a49-40ff-8fce-248badcb7070"
+Template: "a5b3fc10-225d-494e-b95f-ceb873475be8"
+Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation/Portfolio/3 Column Portfolio
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T105456Z
+    - ID: "abc46af4-6a62-420a-9199-484f9c7f1644"
+      Hint: Navigation Item Title
+      Value: 3 Column Portfolio
+    - ID: "ecad425e-c9f7-400d-b91c-6ca223e036cf"
+      Hint: Navigation Item Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{CA6B575E-E187-46EA-8A90-AEEABDEF794B}" />

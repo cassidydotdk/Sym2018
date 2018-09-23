@@ -1,0 +1,18 @@
+﻿---
+ID: "6dfa49ee-464a-4296-8213-692ae41a9f83"
+Parent: "46ccbc3c-73fb-4570-8978-4798dc78f200"
+Template: "76897af2-bfe5-405a-9feb-36c9acb0f215"
+Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T105145Z
+    - ID: "79d0f67d-8bd3-43b1-aa94-a89dea93e0cd"
+      Hint: Brand Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{11EE87A6-1EC4-4604-B2FA-7203DB754692}" />

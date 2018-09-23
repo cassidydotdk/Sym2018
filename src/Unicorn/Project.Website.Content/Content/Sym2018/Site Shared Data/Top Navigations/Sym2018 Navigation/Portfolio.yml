@@ -1,0 +1,21 @@
+﻿---
+ID: "2dadb223-1a49-40ff-8fce-248badcb7070"
+Parent: "6dfa49ee-464a-4296-8213-692ae41a9f83"
+Template: "a5b3fc10-225d-494e-b95f-ceb873475be8"
+Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation/Portfolio
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T105413Z
+    - ID: "abc46af4-6a62-420a-9199-484f9c7f1644"
+      Hint: Navigation Item Title
+      Value: Portfolio

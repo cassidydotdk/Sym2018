@@ -1,0 +1,23 @@
+﻿---
+ID: "ccb555fc-1322-4a3c-816d-74f052c00618"
+Parent: "a5b3fc10-225d-494e-b95f-ceb873475be8"
+Template: "a5b3fc10-225d-494e-b95f-ceb873475be8"
+Path: /sitecore/templates/Project/Data/Navigation Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A5B3FC10-225D-494E-B95F-CEB873475BE8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T105048Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

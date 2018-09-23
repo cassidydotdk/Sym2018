@@ -204,7 +204,7 @@
     <Compile Include="Components\Features\FeaturesModel.cs" />
     <Compile Include="Components\Footer\FooterController.cs" />
     <Compile Include="Components\Footer\FooterModel.cs" />
-    <Compile Include="Components\Header\CarouselSlide.cs" />
+    <Compile Include="Components\Header\CarouselSlideModel.cs" />
     <Compile Include="Components\Header\HeaderController.cs" />
     <Compile Include="Components\Header\HeaderModel.cs" />
     <Compile Include="Components\HeadlineWithSubheading\HeadlineWithSubheadingController.cs" />
@@ -235,6 +235,7 @@
     <Compile Include="Components\TeamMembers\TeamMemberModel.cs" />
     <Compile Include="Components\TeamMembers\TeamMembersController.cs" />
     <Compile Include="Components\TeamMembers\TeamMembersModel.cs" />
+    <Compile Include="Components\TopNavigation\NavigationItemModel.cs" />
     <Compile Include="Components\TopNavigation\TopNavigationController.cs" />
     <Compile Include="Components\TopNavigation\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

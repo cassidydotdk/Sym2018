@@ -1,0 +1,25 @@
+﻿---
+ID: "a0be8520-910c-4bcf-9e2f-853b8e63f922"
+Parent: "6dfa49ee-464a-4296-8213-692ae41a9f83"
+Template: "a5b3fc10-225d-494e-b95f-ceb873475be8"
+Path: /sitecore/content/Sym2018/Site Shared Data/Top Navigations/Sym2018 Navigation/Contact
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T105336Z
+    - ID: "abc46af4-6a62-420a-9199-484f9c7f1644"
+      Hint: Navigation Item Title
+      Value: Contact
+    - ID: "ecad425e-c9f7-400d-b91c-6ca223e036cf"
+      Hint: Navigation Item Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{9001D5D4-A838-427B-8560-D06CD741E46C}" />
