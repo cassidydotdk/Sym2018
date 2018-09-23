@@ -191,6 +191,7 @@
     <Compile Include="Components\Accordion\AccordionItemModel.cs" />
     <Compile Include="Components\Accordion\AccordionModel.cs" />
     <Compile Include="Components\Breadcrumb\BreadcrumbController.cs" />
+    <Compile Include="Components\Breadcrumb\BreadcrumbItemModel.cs" />
     <Compile Include="Components\Breadcrumb\BreadcrumbModel.cs" />
     <Compile Include="Components\CallToAction\CallToActionController.cs" />
     <Compile Include="Components\CallToAction\CallToActionModel.cs" />
@@ -236,6 +237,7 @@
     <Compile Include="Components\TeamMembers\TeamMembersController.cs" />
     <Compile Include="Components\TeamMembers\TeamMembersModel.cs" />
     <Compile Include="Components\TopNavigation\NavigationItemModel.cs" />
+    <Compile Include="Components\TopNavigation\NavigationRepository.cs" />
     <Compile Include="Components\TopNavigation\TopNavigationController.cs" />
     <Compile Include="Components\TopNavigation\TopNavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -4,6 +4,10 @@ Parent: "62f76ff3-478f-4da4-bc5c-45f9089876be"
 Template: "1534da3f-2202-4c4d-824a-f457301eecfc"
 Path: /sitecore/content/Sym2018/Home/404/Local Data/Jumbotron
 DB: master
+SharedFields:
+- ID: "859d0b97-193f-450f-8210-9f11d777ce6a"
+  Hint: Jumbotron Top Navigation Reference
+  Value: "{6DFA49EE-464A-4296-8213-692AE41A9F83}"
 Languages:
 - Language: en
   Versions:
@@ -16,3 +20,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "912be658-4ae7-4f1d-b491-81247a8d77ea"
+      Hint: Jumbotron Title
+      Value: 404

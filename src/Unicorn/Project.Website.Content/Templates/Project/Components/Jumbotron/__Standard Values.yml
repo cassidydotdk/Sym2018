@@ -1,0 +1,24 @@
+﻿---
+ID: "7f8472f7-f407-43b0-8953-87daed4cadd0"
+Parent: "1534da3f-2202-4c4d-824a-f457301eecfc"
+Template: "1534da3f-2202-4c4d-824a-f457301eecfc"
+Path: /sitecore/templates/Project/Components/Jumbotron/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T115653Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "912be658-4ae7-4f1d-b491-81247a8d77ea"
+      Hint: Jumbotron Title
+      Value: $name
+    - ID: "f10a2687-2850-4553-88c2-b910759a3a66"
+      Hint: Jumbotron Text
+      Value: "<p>The page you're looking for could not be found. Here are some helpful links to get you back on track:</p>"
